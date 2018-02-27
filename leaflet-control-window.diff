@@ -1,0 +1,91 @@
+the leaflet 1.10 fix has been submitted upstream
+
+diff --git a/src/L.Control.Window.js b/src/L.Control.Window.js
+index 9f3a4f6..ce78968 100644
+--- a/src/L.Control.Window.js
++++ b/src/L.Control.Window.js
+@@ -10,7 +10,7 @@ L.Control.Window = L.Control.extend({
+         closeButton: true,
+         content: undefined,
+         prompt: undefined,
+-        maxWidth: 600,
++        maxWidth: "600px", // lynx: don't hardcode the unit
+         modal: false,
+         position: 'center'
+     },
+@@ -32,7 +32,7 @@ L.Control.Window = L.Control.extend({
+         this._wrapper = L.DomUtil.create('div',modality+' leaflet-control-window-wrapper', L.DomUtil.get(this.options.element));
+         
+         this._container = L.DomUtil.create('div', 'leaflet-control leaflet-control-window '+this.options.className,this._wrapper);
+-        this._container.setAttribute('style','max-width:'+this.options.maxWidth+'px');
++        this._container.setAttribute('style','max-width:'+this.options.maxWidth); // lynx: removed forced px
+         
+         this._containerTitleBar = L.DomUtil.create('div', 'titlebar',this._container);
+         this.titleContent = L.DomUtil.create('h2', 'title',this._containerTitleBar);
+@@ -55,6 +55,10 @@ L.Control.Window = L.Control.extend({
+         .on(this._wrapper, 'mousewheel', stop)
+         .on(this._wrapper, 'MozMousePixelScroll', stop)
+ 
++        // lynx: make clicks close the modal, but only if outside it
++        L.DomEvent.on(this._wrapper, 'click', this.hide, this);
++        L.DomEvent.on(this._container, 'click', stop, this);
++
+         // Attach event to close button
+         if (this.options.closeButton) {
+             var close = this._closeButton;
+@@ -94,8 +98,10 @@ L.Control.Window = L.Control.extend({
+         return this;
+     },
+     remove: function () {
+-
+-        L.DomUtil.get(this.options.element).removeChild(this._wrapper);
++        // lynx: added try-catch to silence NotFoundError
++        var el = L.DomUtil.get(this.options.element);
++        try { el.removeChild(this._wrapper); }
++        catch (err) {};
+         
+         // Unregister events to prevent memory leak
+         var stop = L.DomEvent.stopPropagation;
+@@ -109,10 +115,9 @@ L.Control.Window = L.Control.extend({
+         .off(this._wrapper, 'MozMousePixelScroll', stop);
+         
+         // map.off('resize',self.mapResized);
+-
+         if (this._closeButton && this._close) {
+             var close = this._closeButton;
+-            L.DomEvent.off(close, 'click', this.close, this);
++            L.DomEvent.off(close, 'click', this.hide, this); // lynx: hide instead of close
+         }
+         return this;
+     },
+@@ -150,6 +155,7 @@ L.Control.Window = L.Control.extend({
+         } else if (this.options.position == 'bottomLeft') {
+             this.showOn([left, top+height-thisHeight-margin*2-offset])
+         } else if (this.options.position == 'top') {
++            if (thisHeight+top > height-10) top = (height - thisHeight)/2; // lynx: recenter if the window is too small
+             this.showOn([left+width/2-thisWidth/2-margin,top+offset])
+         } else if (this.options.position == 'topRight') {
+             this.showOn([left+width-thisWidth-margin*2,top+ offset])
+@@ -241,7 +247,7 @@ L.Control.Window = L.Control.extend({
+         if (this.options.closeButton) {
+             this._closeButton = L.DomUtil.create('a', 'close',this._container);
+             this._closeButton.innerHTML = '&times;';
+-            L.DomEvent.on(this._closeButton, 'click', this.close, this);
++            L.DomEvent.on(this._closeButton, 'click', this.hide, this); // lynx: hide instead of close 
+         }
+         return this;
+         
+@@ -249,7 +255,7 @@ L.Control.Window = L.Control.extend({
+     setPromptCallback : function(callback){
+         var self = this;
+         if (typeof(callback)!= 'function') { callback = function() {console.warn('No callback function specified!');}}
+-        var cb = function() { self.close();callback();};
++        var cb = function() { self.hide();callback();};  // lynx: hide instead of close
+         this.promptCallback = cb;
+         return this;
+     },
+@@ -289,3 +295,4 @@ L.Control.Window = L.Control.extend({
+ L.control.window = function (container,options) {
+     return new L.Control.Window(container,options);
+ };
++

@@ -1,0 +1,554 @@
+<html lang="en">
+	<head>
+	<title>Imgur: A day in the life</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<meta name="description" content="A day in the life of Imgurians around the globe">
+	<meta name="author" content="Jaka Kranjc">
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="product" />
+	<meta property="og:title" content="A day in the life of Imgurians around the globe" />
+	<meta property="og:description" content="A day in the life is a page that celebrates and aggregates the ever-popular Imgur stories of life abroad." />
+	<meta property="og:url" content="https://lynxlynx.info/aditl/" />
+	<meta property="og:image" content="https://lynxlynx.info/aditl/screenshot.jpg" />
+	<meta property="og:image:width" content="713" />
+	<meta property="og:image:height" content="375" />
+	<meta property="og:site_name" content="Imgur: A day in the life" />
+	<link href="https://fonts.googleapis.com/css?family=Chewy|Lato" rel="stylesheet"> 
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css" integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ==" crossorigin=""/>
+	<link rel="stylesheet" href="L.Control.Window.css" />
+	<link href="https://unpkg.com/leaflet.markercluster@1.3.0/dist/MarkerCluster.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css" />
+	<link rel="shortcut icon" href="favicon.ico" />
+	<script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js" integrity="sha512-/Nsx9X4HebavoBvEBuyp3I7od5tA0UzAxs+j83KgC8PU0kgB4XiK4Lfe4y4cgBtaRJQEIFCW+oC506aPT2L1zw==" crossorigin=""></script>
+	<script src="L.Control.Window.js"></script>
+	<style>
+body {
+	padding: 0;
+	margin: 0;
+	background-color: #FFE071;
+	font-family: 'Lato', sans-serif;
+	display: flex;
+	flex-flow: column;
+}
+html, body {
+	height: 100%;
+	width: 100%;
+}
+section {
+	padding: 2em;
+	overflow: hidden;
+}
+h1, nav {
+	font-size: 2em;
+	margin: 0.8em 0;
+}
+h1, nav a, .list-picker button {
+	font-family: 'Chewy', cursive;
+	font-weight: 100;
+	color: #0180FB;
+/*	color: HSLA(207.3, 99.8%, 68.4%, 0.8);
+	text-shadow: 2px 4px 6px #ffe071, 0 0 0 #000, 1px 4px 6px #ffe071;*/
+	text-decoration: none;
+	outline: none;
+}
+h1::selection, nav a::selection {
+	text-shadow: none;
+	background: #0180FB; /* can't only override the shadow */
+	color: #FFE071;
+}
+/* can't chain with above block — neither would work */
+h1::-moz-selection, nav a::-moz-selection {
+	text-shadow: none;
+	background: #0180FB; /* can't only override the shadow */
+	color: #FFE071;
+}
+nav {
+	margin-left: 1em;
+}
+nav a:visited {
+	color: #0180FB;
+}
+nav a:hover, .list-picker button:hover {
+	color: #FF8871;
+}
+nav ul, nav li {
+	display: inline;
+	padding: 0;
+}
+nav ul {
+	display: inline-flex;
+	margin: 0;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+nav li:nth-of-type(2) {
+	margin: 0 0.75em;
+}
+input {
+	font-size: 0.9em;
+}
+#introdiv {
+	padding: 0 2em;
+	overflow: hidden;
+	flex: 0 1 auto; /* for itself */
+	display: flex; /* for the kids */
+	justify-content: space-between;
+	align-items: center;
+}
+#maps {
+	padding: 0em;
+	flex: 1 1 auto;
+}
+#map1 {
+	height: 100%;
+}
+.leaflet-container {
+	background: #73b6e6 !important; /* fake map extension */
+	font-family: 'Lato', sans-serif;
+}
+.popup-date {
+	font-size: 0.8em;
+	margin: 0.2em 0 1em 0;
+}
+.leaflet-popup-content-wrapper {
+	background-color: beige;
+	text-align: center;
+}
+.leaflet-popup-content {
+  font-size: 1.5em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 0.6em;
+}
+.leaflet-popup-content > span {
+  margin-bottom: 0;
+  display: block;
+	font-size: 1.17em;
+	font-weight: bold;
+}
+.control-window {
+	background-color: beige;
+	border-radius: 15px;
+	font-size: 1.5em;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	min-width: 20em;
+}
+.control-window .content {
+	font-size: 1.2em;
+	padding: 0 1em 1em 1em;
+}
+.control-window .titlebar {
+	padding: 10px 45px;
+}
+.control-window .titlebar h2 {
+	margin: 0.3em 0;
+}
+.control-window .title {
+	font-family: 'Chewy', cursive;
+	font-weight: 100;
+	font-size: 2.4em;
+	color: #0180FB;
+}
+.control-window .promptButtons {
+	text-align: center;
+	padding: 0 1em 1.5em 1em;
+}
+.control-window .promptButtons button:nth-of-type(2) {
+	display: none;
+}
+.control-window .promptButtons button, .leaflet-popup-content-wrapper a {
+	font-size: 1.5em;
+	margin: 0;
+	color: beige;
+	background-color: #0180fb;
+}
+.leaflet-popup-content-wrapper a {
+	font-size: 0.9em; /*1.1 */
+	font-weight: 600;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	max-width: 9em;
+	margin: auto;
+	border-radius: 15px;
+	padding: 0.5em 0;
+}
+.cat-title {
+	margin-bottom: 0;
+}
+.listing {
+	display: none;
+	margin-bottom: 1em;
+}
+.listing div {
+	font-size: 0.7em;
+}
+.list-picker {
+	display: flex;
+	justify-content: space-around;
+}
+.list-picker button {
+	text-shadow: none;
+	opacity: 1;
+	font-size: 1.1em;
+	padding: 0;
+	margin: 0;
+}
+.list-picker button:focus, .list-picker button:active {
+	outline: none; /* FIXME: doesn't cut it for firefox */
+}
+.marker-cluster {
+	background-clip: padding-box;
+	border-radius: 12px;
+}
+.marker-cluster div {
+	width: 25px;
+	height: 25px;
+	margin-left: 7px;
+	margin-top: 7px;
+	text-align: center;
+	border-radius: 15px;
+	font: 12px "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+.marker-cluster span {
+	line-height: 27px;
+}
+.marker-cluster-fixed {
+	background-color: rgba(0, 0, 0, 0.9);
+}
+.marker-cluster-fixed div {
+	background-color: rgba(110, 204, 57, 0.9);
+}
+#secret1 {
+	margin: 0;
+	font-size: 80%;
+	color: beige;
+}
+#secret1:hover {
+	color: black;
+}
+form {
+	margin: 0;
+}
+input {
+	margin: 0.15em 0;
+}
+input:invalid {
+	background-color: pink;
+}
+.leaflet-control-window .close {
+	font-weight: bold;
+	width: 30px;
+	height: 30px;
+	background-color: #0180fb;
+	opacity: 0.5;
+}
+.leaflet-control-window .close:hover {
+	background-color: #0180fb;
+	opacity: 1;
+}
+@media (max-width: 600px) {
+	h1, nav {
+		font-size: 1.5em;
+	}
+	.control-window, .leaflet-popup-content {
+		font-size: 1.2em;
+  }
+}
+	</style>
+	</head>
+	<body>
+	<section id="introdiv">
+		<h1>Imgur: A day in the life (everywhere)</h1>
+		<nav>
+			<ul>
+				<li><a href="" id="cats">Categories</a></li>
+				<li><a href="" id="submit">Submit</a></li>
+				<li><a href="" id="about">About</a></li>
+			</ul>
+		</nav>
+  </section>
+  
+  <section id="maps">
+		<div id="map1"></div>
+  </section>
+
+	<script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=Promise,fetch"></script>
+	<script src="https://unpkg.com/leaflet.markercluster@1.3.0/dist/leaflet.markercluster.js"></script>
+	<script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+	<script>
+var MAPBOX_KEY = "CHANGEME";
+var GEOCODER_KEY = "CHANGEME";
+
+var maxZoom = 11;
+var map = L.map('map1').setView([35.0, 15], 2);
+L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+	attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+	maxZoom: maxZoom,
+	id: 'mapbox.streets',
+	accessToken: MAPBOX_KEY
+}).addTo(map);
+
+var geocoder = new L.Control.Geocoder.Google(GEOCODER_KEY);
+L.Control.geocoder({
+		defaultMarkGeocode: false,
+		expand: "click", // FIXME: fixed in master #174, revert later
+		geocoder: geocoder
+	})
+	.on('markgeocode', function(e) {
+			var point = e.geocode.center;
+			map.setView(point, maxZoom);
+	})
+	.addTo(map);
+
+function generateDescription(feature, layer) {
+	feature.properties.popupContent = `
+	<span aria-label="Place name">${feature.properties.name} (${feature.properties.country})</span>
+	<div>
+		<div class="popup-date">${feature.properties.date}</div>
+		<a href="${feature.properties.url}" target="_blank" rel="noopener">Full photo-story</a>
+	</div>`;
+}
+
+//  customize marker to the imgur logo look-alike (needs to be pointy)
+// eh, can't just swap the pic in the default for some reason
+var imgurMarker = L.icon({
+	iconUrl: 'marker-icon.png',
+	iconAnchor: [12, 41],
+	iconRetinaUrl: "marker-icon-2x.png",
+	iconSize: [25, 41],
+	popupAnchor: [1, -34],
+	shadowSize: [41, 41],
+	shadowUrl: "marker-shadow.png",
+	tooltipAnchor: [16, -28]
+});
+
+var markers = L.markerClusterGroup({
+	showCoverageOnHover: false, 
+	maxClusterRadius: 50, // default: 80; check Bermuda is still spidered when changing
+	iconCreateFunction: function(cluster) {
+		return new L.divIcon({ 
+			html: '<div><span>' + cluster.getChildCount() + '</span></div>',
+			className: 'marker-cluster marker-cluster-fixed',
+			iconSize: new L.Point(40, 40)
+		});
+	}
+});
+
+var geojsonFeatures;
+var geojsonLayer;
+fetch('stories.geojson')
+	.then(response => response.json())
+	.then(json => geojsonFeatures = json.features)
+	.then(() => {
+		geojsonLayer = L.geoJSON(geojsonFeatures, {
+			onEachFeature: (feature, layer) => { 
+				generateDescription(feature, layer);
+				layer.bindPopup(feature.properties.popupContent, { maxWidth: 250 });
+			},
+			pointToLayer: function(feature, latlng) {
+				return L.marker(latlng, { icon: imgurMarker });
+			}
+		});
+	})
+	.then(() => {
+		markers.addLayer(geojsonLayer);
+		map.addLayer(markers);
+	})
+	.then(populateLists)
+	.then(generateTables)
+	.then(createListing)
+	.then(addAboutModal);
+
+// add a map popup with a GREETING
+var greetingWin =  L.control.window(map, {
+	title: 'Welcome!', 
+	prompt: { buttonOK: 'Explore!', buttonCancel: '' },
+	content: 'Find life stories of Imgurians from interesting places on our blue dot.',
+	modal: true,
+	position: 'top',
+	closeButton: false,
+	maxWidth: "30em",
+});
+greetingWin.show();
+
+function registerClickHandler(id, modal) {
+	var el = document.getElementById(id);
+	L.DomEvent.on(el, "click", (ev) => {
+		L.DomEvent.preventDefault(ev);
+		modal.show();
+	});
+}
+
+// separated into a function only to be able to access the count
+function addAboutModal() {
+	var aboutWin =  L.control.window(map, {
+		title: 'About', 
+		prompt: { buttonOK: 'Explore!', buttonCancel: '' },
+		content: `<p style="margin-top: 0;"><em>A day in the life</em> is a page that celebrates the ever-popular Imgur stories of life abroad. Besides being interesting, I like them as they bring us a tiny bit closer together in this divided world. —Jaka Kranjc, 2018</p><p>Please direct any gratitude to my <a href="https://ebm.si/en/#donate" target="_blank" rel="noopener">non-profit of choice</a>.</p><p id="secret1">The page contains a dozen Easter eggs and ${geojsonFeatures.length} stories</p>`,
+		modal: true,
+		position: 'top',
+		closeButton: true,
+	});
+	registerClickHandler("about", aboutWin);
+}
+
+var submitWin =  L.control.window(map, {
+	title: "There's more?", 
+	prompt: { 
+		buttonOK: 'Submit', 
+		callback: function() {
+			var form = document.querySelector("form");
+			if (!form.checkValidity()) return submitWin.show();
+
+			var loc = document.getElementById("location").value;
+			geocoder.geocode(loc, (results) => {
+				var coords;
+				try {
+					coords = results[0].center;
+				} catch (e) {
+					// lookup failed, manual intervention needed
+					coords = { lat: 0, lng: 0 };
+				}
+				var x = document.getElementById("x");
+				var y = document.getElementById("y");
+				x.value = coords.lng;
+				y.value = coords.lat;
+
+				var formData = new FormData(form);
+				var request = new XMLHttpRequest();
+
+				request.open('POST', "new.day.php", true);
+				request.addEventListener('error', function(event) {
+					alert('Oops! Please retry!');
+				});
+
+				request.send(formData);
+				form.reset();
+				// HACK to avoid form resubmission warnings on page reload
+				history.pushState(null, "whatever", window.location.href);
+			}, this);
+		}
+	},
+	content: `<div>Know of a story I missed? Got inspired and wrote your own? Fill in the form!</div>
+	<div style="font-size: 0.8em">
+		<em>Please only submit stories that can be put on the map.</em>
+	</div>
+	<form method="POST">
+		<input type="url" id="url" name="url" size="28" placeholder="Link to post" required><br/>
+		Post date: <input type="date" id="date" name="date" value="2016-07-07" required  pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}"><br/>
+		<input type="text" id="location" name="location" size="28" placeholder="Place name (be specific if possible)" required><br/>
+		<input type="text" id="country" name="country" placeholder="Country" required>
+		<select id="continent" name="continent" required>
+			<option disabled selected value>Continent</option>
+			<option>Africa</option>
+			<option>Antarctica</option>
+			<option>Asia</option>
+			<option>Europe</option>
+			<option>North America</option>
+			<option>Oceania</option>
+			<option>South America</option>
+			<option value="Unknown">Unknown/Other</option>
+		</select><br/>
+		<input type="text" id="prof" name="prof" placeholder="Profession (optional)">
+		<input type="hidden" id="x" name="x">
+		<input type="hidden" id="y" name="y">
+		<div style="margin-top: 0.6em;">
+			This form will close on submission. Thanks!
+		</div>
+	</form>`,
+	modal: true,
+	position: 'top',
+	closeButton: true,
+});
+registerClickHandler("submit", submitWin);
+
+// pre-construct search lists
+var lists = [[], [], []];
+function populateLists() {
+	for(var i=0; i<geojsonFeatures.length; i++) {
+		var feature = geojsonFeatures[i];
+		var url = feature.properties.url;
+		var name = feature.properties.name;
+		var country = feature.properties.country;
+		var continent = feature.properties.continent;
+		var date = feature.properties.date;
+
+		var values = [continent, country, date];
+		var entry = { name: name, url: url };
+
+		for(var l=0; l<lists.length; l++) {
+			list = lists[l];
+			val = values[l];
+			if (l == 2) { // special case dates — extract the year
+				val = val.split("-")[0];
+			}
+			var filtered = list.filter(v => v[0] == val);
+			var idx = list.indexOf(filtered[0]);
+			if (idx == -1) {
+				list.push([val, [entry]]);
+			} else {
+				list[idx][1].push(entry);
+			}
+		}
+	}
+}
+
+// sort and generate html
+var tables = [ "", "", "" ];
+function generateTables() {
+	function loCaseSorter(a, b) {
+		return a.toLowerCase().localeCompare(b.toLowerCase());
+	}
+	function generateItem(item) {
+		return `<a href="${item.url}" target="_blank" rel="noopener">${item.name}</a><br/>`;
+	}
+
+	for(var l=0; l<lists.length; l++) {
+		lists[l].sort((a,b) => loCaseSorter(a[0], b[0]));
+		for (var j=0; j<lists[l].length; j++) {
+			lists[l][j][1].sort((a,b) => loCaseSorter(a.name, b.name));
+			var listing = lists[l][j][1].reduce((a, v) => a + generateItem(v), "");
+			tables[l] += `<h4 class="cat-title">${lists[l][j][0]}</h4><div>${listing}</div>`;
+		}
+	}
+}
+
+function createListing() {
+	var listingWin =  L.control.window(map, {
+		title: 'Categories', 
+		prompt: { buttonOK: 'Explore!', buttonCancel: '' },
+		content: `<div class="list-picker">
+			<button onclick="toggleListing(2)">Continent</button>
+			<button onclick="toggleListing(3)">Country</button>
+			<button onclick="toggleListing(4)">Year</button>
+		</div>
+		<div class="listing" style="display: block">${tables[0]}</div>
+		<div class="listing">${tables[1]}</div>
+		<div class="listing">${tables[2]}</div>`,
+		modal: true,
+		position: 'top',
+		closeButton: true,
+	});
+	registerClickHandler("cats", listingWin);
+}
+
+function toggleListing(idx) {
+	var enable = document.querySelector(`.listing:nth-of-type(${idx})`);
+	if (enable.style.display == "block") return;
+	enable.style.display = "block";
+
+	// for some reason the first element is always null
+	var disableIdx = [2, 3, 4].filter(v => v != idx);
+	for (var i=0; i<disableIdx.length; i++) {
+		var disable = document.querySelector(`.listing:nth-of-type(${disableIdx[i]})`);
+		disable.style.display = "none";
+	}
+}
+
+
+	</script>
+  </body>
+</html>

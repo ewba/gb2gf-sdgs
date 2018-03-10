@@ -1,0 +1,4968 @@
+ {
+  "type": "FeatureCollection",
+  "features": [{
+  "type": "Feature",
+  "properties": {
+    "name": "Ljubljana",
+    "country": "Slovenia",
+    "continent": "Europe",
+    "profession": "Non-profit activist",
+    "url": "https://imgur.com/gallery/x5veP",
+    "date": "2016-12-29"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [14.5504, 46.05621]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Outer Hebrides, Scotland",
+    "country": "United Kingdom",
+    "continent": "Europe",
+    "profession": "Academic writer",
+    "url": "https://imgur.com/gallery/7BE7v",
+    "date": "2016-07-05"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-7.4700041,57.0091313]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "A Day In The Life",
+    "country": "United Kingdom",
+    "continent": "Europe",
+    "profession": "Easter egg",
+    "url": "https://www.youtube.com/watch?v=usNsCeOV4GM",
+    "date": "1967-05-26"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-0.1780762,51.5321669]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Imgur: 8th anniversary",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Easter egg",
+    "url": "https://imgur.com/gallery/aAT0U",
+    "date": "2017-02-23"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-122.4037329,37.7968268]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Quezon City, Manila",
+    "country": "Philippines",
+    "continent": "Asia",
+    "profession": "Language facilitator",
+    "url": "https://imgur.com/gallery/zunG6",
+    "date": "2016-07-04"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [121.029894,14.6758811]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Harajuku, Tokyo",
+    "country": "Japan",
+    "continent": "Asia",
+    "profession": "Festival organiser",
+    "url": "https://imgur.com/gallery/0mDlH",
+    "date": "2016-06-08"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [139.7051047,35.6708947]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Yokohama",
+    "country": "Japan",
+    "continent": "Asia",
+    "profession": "high school English teacher",
+    "url": "https://imgur.com/gallery/M85PO",
+    "date": "2016-07-09"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [139.5842306,35.4619449]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Rural Vietnam",
+    "country": "Vietnam",
+    "continent": "Asia",
+    "profession": "Student",
+    "url": "https://imgur.com/gallery/q8yJz",
+    "date": "2016-07-07"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [105.3866661,18.8020839]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Dongtan",
+    "country": "South Korea",
+    "continent": "Asia",
+    "profession": "ESL teacher",
+    "url": "https://imgur.com/gallery/kVeOi",
+    "date": "2016-08-16"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [127.0728081,37.2041056]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Dog Town",
+    "country": "Unknown",
+    "continent": "Unknown",
+    "profession": "People trainer",
+    "url": "https://imgur.com/gallery/n3biB",
+    "date": "2016-07-16"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-119.2342886,38.1697974]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Imperium",
+    "country": "Unknown",
+    "continent": "Unknown",
+    "profession": "Space marine",
+    "url": "https://imgur.com/gallery/ofa9d",
+    "date": "23332-01-01"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-73.363021,28.161506]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Guangzhou",
+    "country": "China",
+    "continent": "Asia",
+    "profession": "English teacher",
+    "url": "https://imgur.com/gallery/3sk0C",
+    "date": "2016-12-30"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [112.9476584,23.1253503]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Hong Kong",
+    "country": "China",
+    "continent": "Asia",
+    "profession": "Student",
+    "url": "https://imgur.com/gallery/XC5jh",
+    "date": "2016-07-20"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [114.047564,22.3563755]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Kristiansand",
+    "country": "Norway",
+    "continent": "Europe",
+    "profession": "3D visualiser for road construction",
+    "url": "https://imgur.com/gallery/AIfSc",
+    "date": "2016-12-22"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [7.9391728,58.1529584]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Whiterun",
+    "country": "Skyrim",
+    "continent": "Tamriel",
+    "profession": "Adventurer",
+    "url": "https://imgur.com/gallery/87QqN",
+    "date": "2016-09-14"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-73.323021,28.121506]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Tehran",
+    "country": "Iran",
+    "continent": "Asia",
+    "profession": "Android developer",
+    "url": "https://imgur.com/gallery/7QD2K",
+    "date": "2016-11-22"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [51.2097354,35.696733]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Numancia",
+    "country": "Mexico",
+    "continent": "North America",
+    "profession": "Teacher",
+    "url": "https://imgur.com/gallery/3ngLP",
+    "date": "2018-01-02"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-103.5934409,25.7305472]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Mt. Kapakapanui",
+    "country": "New Zealand",
+    "continent": "Oceania",
+    "profession": "Farmer",
+    "url": "https://imgur.com/gallery/iMozm",
+    "date": "2016-07-11"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [175.0818723,-40.9085339]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Saffron Walden",
+    "country": "United Kingdom",
+    "continent": "Europe",
+    "profession": "Insurance broker",
+    "url": "https://imgur.com/gallery/f6hN7",
+    "date": "2016-07-10"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [0.230331,52.020801]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Västerås",
+    "country": "Sweden",
+    "continent": "Europe",
+    "profession": "Truck driver",
+    "url": "https://imgur.com/gallery/bk6N5",
+    "date": "2017-11-15"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [16.4750517,59.6245733]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Sapelo Island",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Sea turtle technician",
+    "url": "https://imgur.com/gallery/vs1yx",
+    "date": "2016-07-21"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-81.3127284,31.4577389]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Nantes",
+    "country": "France",
+    "continent": "Europe",
+    "profession": "Translator",
+    "url": "https://imgur.com/gallery/OO2MD",
+    "date": "2016-07-12"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-1.6300955,47.2382007]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Auckland",
+    "country": "New Zealand",
+    "continent": "Oceania",
+    "profession": "Game developer, musician",
+    "url": "https://imgur.com/gallery/5vB4z",
+    "date": "2017-03-15"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [174.7433895,-36.8547856]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Denton",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Reserve police officer",
+    "url": "https://imgur.com/gallery/x7fiX",
+    "date": "2017-01-13"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-97.2185303,33.281978]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Washington DC",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Arabic caligrapher",
+    "url": "https://imgur.com/gallery/X5Nj3",
+    "date": "2016-07-14"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-77.1678763,39.0792237]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Ísafjörður",
+    "country": "Iceland",
+    "continent": "Europe",
+    "profession": "Student",
+    "url": "https://imgur.com/gallery/OmAXv",
+    "date": "2016-07-08"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-23.3258485,66.0653042]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Húsavík",
+    "country": "Iceland",
+    "continent": "Europe",
+    "profession": "Student",
+    "url": "https://imgur.com/gallery/c6ESP",
+    "date": "2016-07-09"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-17.6355791,66.0539082]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Huonville, Tasmania",
+    "country": "Australia",
+    "continent": "Oceania",
+    "profession": "Farmer",
+    "url": "https://imgur.com/gallery/9ZWAZ",
+    "date": "2016-07-12"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [147.0093459,-42.9849206]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Aversa",
+    "country": "Italy",
+    "continent": "Europe",
+    "profession": "Souvenir designer",
+    "url": "https://imgur.com/gallery/4bNjr",
+    "date": "2017-02-07"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [14.187579,40.9705508]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Honolulu, Hawai'i",
+    "country": "USA",
+    "continent": "Oceania",
+    "profession": "Lawyer",
+    "url": "https://imgur.com/gallery/h5cE7",
+    "date": "2016-07-11"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-157.8801059,21.2915129]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Seoul",
+    "country": "South Korea",
+    "continent": "Asia",
+    "profession": "Housewife",
+    "url": "https://imgur.com/gallery/Cl89z",
+    "date": "2016-07-11"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [126.849467,37.5650172]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Route 45, IL",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Self-care",
+    "url": "https://imgur.com/gallery/thyXr",
+    "date": "2017-03-12"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-88.1035549,40.8161545]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Tamuning, Guam",
+    "country": "Micronesia",
+    "continent": "Oceania",
+    "profession": "Aquarist",
+    "url": "https://imgur.com/gallery/inEVK",
+    "date": "2016-07-17"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [144.7706303,13.5006574]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Miyazaki",
+    "country": "Japan",
+    "continent": "Asia",
+    "profession": "High school teacher",
+    "url": "https://imgur.com/gallery/Kubuk",
+    "date": "2016-08-16"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [131.3652774,31.9091417]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Åland",
+    "country": "Finland",
+    "continent": "Europe",
+    "profession": "",
+    "url": "https://imgur.com/gallery/AnRTM",
+    "date": "2016-07-09"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [19.8689313,60.096537]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Honolulu 2, Hawai'i",
+    "country": "USA",
+    "continent": "Oceania",
+    "profession": "Acupuncturist",
+    "url": "https://imgur.com/gallery/EtzPU",
+    "date": "2016-07-11"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-157.8701059,21.2815129]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Goch",
+    "country": "Germany",
+    "continent": "Europe",
+    "profession": "Webshop owner",
+    "url": "https://imgur.com/gallery/z1G5I",
+    "date": "2016-07-10"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [6.069828,51.6813804]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Pasvik",
+    "country": "Norway",
+    "continent": "Europe",
+    "profession": "Student",
+    "url": "https://imgur.com/gallery/ytldn",
+    "date": "2017-01-06"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [29.9355881,69.4687703]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Belgrade",
+    "country": "Serbia",
+    "continent": "Europe",
+    "profession": "Nutricionist-dietitian",
+    "url": "https://imgur.com/gallery/HpLoI",
+    "date": "2016-07-18"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [20.4905273,44.8104272]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Berlin",
+    "country": "Germany",
+    "continent": "Europe",
+    "profession": "Newspaper layouting",
+    "url": "https://imgur.com/gallery/2fwzi",
+    "date": "2016-07-11"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [13.3390595,52.4525646]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Yamagata",
+    "country": "Japan",
+    "continent": "Asia",
+    "profession": "Education designer",
+    "url": "https://imgur.com/gallery/H8p6Z",
+    "date": "2016-07-15"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [140.3107336,38.206849]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Fin-land",
+    "country": "Unknown",
+    "continent": "Oceania",
+    "profession": "Model",
+    "url": "https://imgur.com/gallery/yBtfL",
+    "date": "2016-11-29"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-162.3799824,0.6388302]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Annascaul",
+    "country": "Ireland",
+    "continent": "Europe",
+    "profession": "Student",
+    "url": "https://imgur.com/gallery/BhBm4",
+    "date": "2016-07-15"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-10.0655159,52.1510777]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Beijing",
+    "country": "China",
+    "continent": "Asia",
+    "profession": "Highschool student",
+    "url": "https://imgur.com/gallery/YatzD",
+    "date": "2016-07-10"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [116.1172796,39.9385466]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Isle of Man",
+    "country": "United Kingdom",
+    "continent": "Europe",
+    "profession": "Manager (gambling)",
+    "url": "https://imgur.com/gallery/yzmtT",
+    "date": "2017-04-14"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-4.6039715,54.1566961]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "British Columbia",
+    "country": "Canada",
+    "continent": "North America",
+    "profession": "Cattle rancher",
+    "url": "https://imgur.com/gallery/yHDu7",
+    "date": "2016-07-08"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-122.4700457,57.402725]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Orcas Island, Washington",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Cook",
+    "url": "https://imgur.com/gallery/vkTA0",
+    "date": "2016-07-09"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-123.0265544,48.653165]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Bangalore",
+    "country": "India",
+    "continent": "Asia",
+    "profession": "Student",
+    "url": "https://imgur.com/gallery/ilxEv",
+    "date": "2016-07-08"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [77.4908547,12.95396]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Moscow, Idaho",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Coffee shop owner",
+    "url": "https://imgur.com/gallery/MqRH8",
+    "date": "2016-07-11"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-116.9851843,46.7579408]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Regensburg",
+    "country": "Germany",
+    "continent": "Europe",
+    "profession": "City clerk",
+    "url": "https://imgur.com/gallery/HNjzg",
+    "date": "2016-07-08"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [12.0403018,49.0215596]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Vancouver",
+    "country": "Canada",
+    "continent": "North America",
+    "profession": "IT",
+    "url": "https://imgur.com/gallery/eZAvn",
+    "date": "2016-07-23"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-123.1939433,49.2577143]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Tårnåsen",
+    "country": "Norway",
+    "continent": "Europe",
+    "profession": "Animal shelterer",
+    "url": "https://imgur.com/gallery/8QUl8",
+    "date": "2016-11-11"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [10.8136252,59.8155776]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Stykkishólmur",
+    "country": "Iceland",
+    "continent": "Europe",
+    "profession": "Museum manager",
+    "url": "https://imgur.com/gallery/A7Njg",
+    "date": "2016-07-07"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-22.750218,65.0727155]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Lincoln",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Student",
+    "url": "https://imgur.com/gallery/SdEZm",
+    "date": "2016-07-12"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-96.7607679,40.8005878]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Sfântu Gheorghe",
+    "country": "Romania",
+    "continent": "Europe",
+    "profession": "Freelance translator",
+    "url": "https://imgur.com/gallery/pYalM",
+    "date": "2016-07-11"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [25.6979369,45.8734415]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Oslo",
+    "country": "Norway",
+    "continent": "Europe",
+    "profession": "IT consultant",
+    "url": "https://imgur.com/gallery/XxGrH",
+    "date": "2016-07-15"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [10.6450364,59.8937806]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Vodskov",
+    "country": "Denmark",
+    "continent": "Europe",
+    "profession": "Teacher",
+    "url": "https://imgur.com/gallery/0xIoN",
+    "date": "2016-07-11"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [10.0121563,57.1018105]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Yokohama 2",
+    "country": "Japan",
+    "continent": "Asia",
+    "profession": "Student",
+    "url": "https://imgur.com/gallery/BBUFy",
+    "date": "2016-07-11"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [139.5442306,35.4419449]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Osaka",
+    "country": "Japan",
+    "continent": "Asia",
+    "profession": "Spanish/English instructor",
+    "url": "https://imgur.com/gallery/X697x",
+    "date": "2016-07-11"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [135.4601306,34.678395]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Happy Valley, Utah",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "",
+    "url": "https://imgur.com/gallery/0GFAF",
+    "date": "2016-07-11"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-112.2180133,40.6449791]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Pori",
+    "country": "Finland",
+    "continent": "Europe",
+    "profession": "Secretary",
+    "url": "https://imgur.com/gallery/CJDZR",
+    "date": "2016-07-14"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [21.2394293,61.5657943]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Bern",
+    "country": "Switzerland",
+    "continent": "Europe",
+    "profession": "Designer, developer",
+    "url": "https://imgur.com/gallery/O0JJL",
+    "date": "2016-07-15"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [7.3248306,46.9546486]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Wichita, Kansas",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Cashier, student",
+    "url": "https://imgur.com/gallery/y5cDj",
+    "date": "2016-07-14"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-97.4339983,37.6969385]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Sonoma County",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Game developer",
+    "url": "https://imgur.com/gallery/ZMZOU",
+    "date": "2016-07-12"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-122.9503921,38.6067532]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Chandigarh",
+    "country": "India",
+    "continent": "Asia",
+    "profession": "DevOps engineer",
+    "url": "https://imgur.com/gallery/atDWS",
+    "date": "2016-07-13"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [76.6934891,30.7350626]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Wackersberg",
+    "country": "Germany",
+    "continent": "Europe",
+    "profession": "Student",
+    "url": "https://imgur.com/gallery/jNI75",
+    "date": "2016-07-09"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [11.4441416,47.7452826]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Iqaluit",
+    "country": "Canada",
+    "continent": "North America",
+    "profession": "Dental assistant",
+    "url": "https://imgur.com/a/W8TLS",
+    "date": "2016-07-12"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-68.5872667,63.7387615]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Otrokovice",
+    "country": "Czech Republic",
+    "continent": "Europe",
+    "profession": "Software Engineer",
+    "url": "https://imgur.com/gallery/6DVJN",
+    "date": "2017-02-09"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [17.4994881,49.2123804]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Elgin, Scotland",
+    "country": "United Kingdom",
+    "continent": "Europe",
+    "profession": "Dental receptionist",
+    "url": "https://imgur.com/gallery/7GJ91",
+    "date": "2016-07-14"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-3.3476636,57.6466849]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Mostar",
+    "country": "Bosnia and Herzegovina",
+    "continent": "Europe",
+    "profession": "Theater artist",
+    "url": "https://imgur.com/gallery/8mzyA",
+    "date": "2016-07-12"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [17.7862212,43.3395487]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Toronto",
+    "country": "Canada",
+    "continent": "North America",
+    "profession": "Mobile developer",
+    "url": "https://imgur.com/gallery/lbCgc",
+    "date": "2016-07-09"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-79.6010275,43.6565353]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Incheon",
+    "country": "South Korea",
+    "continent": "Asia",
+    "profession": "",
+    "url": "https://imgur.com/gallery/ypOoP",
+    "date": "2016-07-12"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [126.6043103,37.4645293]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Blind Island",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "",
+    "url": "https://imgur.com/gallery/EHU27",
+    "date": "2016-07-12"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-164.9992293,62.6558171]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Taipei",
+    "country": "Taiwan",
+    "continent": "Asia",
+    "profession": "Chocolatier",
+    "url": "https://imgur.com/gallery/yaKQU",
+    "date": "2016-07-11"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [121.4451712,25.0374422]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Tenderloin, SF",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Concept art",
+    "url": "https://imgur.com/gallery/cnatH",
+    "date": "2016-11-03"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-122.4218072,37.7839293]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Aarhus",
+    "country": "Denmark",
+    "continent": "Europe",
+    "profession": "Student",
+    "url": "https://imgur.com/gallery/J7KKp",
+    "date": "2016-07-10"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [10.1119353,56.1780842]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Boksburg",
+    "country": "South Africa",
+    "continent": "Africa",
+    "profession": "Student",
+    "url": "https://imgur.com/gallery/sBJNb",
+    "date": "2016-11-17"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [28.1805435,-26.251126]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Brooklyn, NY",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Skyrim fanatic",
+    "url": "https://imgur.com/gallery/EoIvS",
+    "date": "2014-09-08"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-74.0025347,40.6478417]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Vienna",
+    "country": "Austria",
+    "continent": "Europe",
+    "profession": "",
+    "url": "https://imgur.com/gallery/8Ue9y",
+    "date": "2016-07-16"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [16.3597369,48.1992635]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Highland, UT",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Student",
+    "url": "https://imgur.com/gallery/X5G1N",
+    "date": "2016-09-04"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-111.8155497,40.4204569]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Unknown",
+    "country": "Canada",
+    "continent": "North America",
+    "profession": "",
+    "url": "https://imgur.com/gallery/GpAA2",
+    "date": "2016-07-13"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-114.0659095,53.7967875]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Dubai",
+    "country": "United Arab Emirates",
+    "continent": "Asia",
+    "profession": "HR and Administrative Assistant",
+    "url": "https://imgur.com/gallery/IhZRW",
+    "date": "2016-07-17",
+    "special": "detailed, cultural mix, hidden life"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [55.2973414,25.255586]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "London",
+    "country": "United Kingdom",
+    "continent": "Europe",
+    "profession": "Software developer",
+    "url": "https://imgur.com/gallery/zpjtc",
+    "date": "2016-07-13"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-0.1171858,51.598096]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Absurd Entertainment, CA",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Satyrist",
+    "url": "https://imgur.com/gallery/wcuiO",
+    "date": "2016-07-16"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-121.3695667,38.567185]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Gnesta",
+    "country": "Sweden",
+    "continent": "Europe",
+    "profession": "Police manager",
+    "url": "https://imgur.com/gallery/ZdRza",
+    "date": "2016-07-20"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [17.2781329,59.0435704]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Naples, MA",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Non-profit manager",
+    "url": "https://imgur.com/gallery/CrboT",
+    "date": "2016-07-00"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-70.6868765,43.9718035]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Stavanger",
+    "country": "Norway",
+    "continent": "Europe",
+    "profession": "Child care assistant",
+    "url": "https://imgur.com/gallery/HhyR2",
+    "date": "2016-07-18"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [5.7418036,58.967038]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Riyadh",
+    "country": "Saudi Arabia",
+    "continent": "Asia",
+    "profession": "Student",
+    "url": "https://imgur.com/gallery/ND7yH",
+    "date": "2016-11-26"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [46.699702,24.736606]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Chicago",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Head writer",
+    "url": "https://imgur.com/gallery/eSvoD",
+    "date": "2017-01-12"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-87.6714594,41.7264926]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Tokyo",
+    "country": "Japan",
+    "continent": "Asia",
+    "profession": "Teacher",
+    "url": "https://imgur.com/gallery/uwmMJ",
+    "date": "2017-01-13"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [139.7269092,35.7084274]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Eye of Terror",
+    "country": "Unknown",
+    "continent": "Unknown",
+    "profession": "Chaos space marine",
+    "url": "https://imgur.com/gallery/Y5mJv",
+    "date": "32016-07-10"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-73.3480564,28.1246148]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Jersey, Channel Islands",
+    "country": "United Kingdom",
+    "continent": "Europe",
+    "profession": "Architectural technician",
+    "url": "https://imgur.com/gallery/ZTl7I",
+    "date": "2016-07-11"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-2.1986029,49.1913735]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Løfsøya",
+    "country": "Norway",
+    "continent": "Europe",
+    "profession": "Student",
+    "url": "https://imgur.com/gallery/2yQdC",
+    "date": "2016-07-13"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [6.1510767,62.6203731]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Marseille",
+    "country": "France",
+    "continent": "Europe",
+    "profession": "Sales person",
+    "url": "https://imgur.com/gallery/iiMtx",
+    "date": "2016-07-08"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [5.3482871,43.2819558]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "London",
+    "country": "United Kingdom",
+    "continent": "Europe",
+    "profession": "",
+    "url": "https://imgur.com/gallery/O7O1t",
+    "date": "2016-08-15"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-0.1578317,51.5214682]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Mpumalanga",
+    "country": "South Africa",
+    "continent": "Africa",
+    "profession": "Teacher",
+    "url": "https://imgur.com/gallery/7Yz80",
+    "date": "2016-07-13"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [29.0173565,-25.7394021]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Hornsey, London",
+    "country": "United Kingdom",
+    "continent": "Europe",
+    "profession": "Manager",
+    "url": "https://imgur.com/gallery/9wWMu",
+    "date": "2016-10-16"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-0.1306432,51.5870438]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Tallinn",
+    "country": "Estonia",
+    "continent": "Europe",
+    "profession": "Production analyst",
+    "url": "https://imgur.com/gallery/IefZV",
+    "date": "2016-07-12"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [24.728636,59.4351041]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Johannesburg",
+    "country": "South Africa",
+    "continent": "Africa",
+    "profession": "Student",
+    "url": "https://imgur.com/gallery/XHwe0",
+    "date": "2016-07-16"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [27.9138766,-26.0787492]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Singapore",
+    "country": "Singapore",
+    "continent": "Asia",
+    "profession": "",
+    "url": "https://imgur.com/gallery/ct5F2",
+    "date": "2017-03-04"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [103.7980056,1.3322434]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Bangor, Wales",
+    "country": "United Kingdom",
+    "continent": "Europe",
+    "profession": "Student",
+    "url": "https://imgur.com/gallery/iqowU",
+    "date": "2016-07-13"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-4.1777091,53.2209389]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Jacksonville, NC",
+    "country": "USA",
+    "continent": "Europe",
+    "profession": "Education designer",
+    "url": "https://imgur.com/gallery/JUwnt",
+    "date": "2016-07-20"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-77.4413726,34.7494489]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Edmonton",
+    "country": "Canada",
+    "continent": "North America",
+    "profession": "Aircraft handler",
+    "url": "https://imgur.com/gallery/wxD4l",
+    "date": "2016-07-13"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-113.5689383,53.437863]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Western NC",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Musician",
+    "url": "https://imgur.com/gallery/S51lY",
+    "date": "2018-02-03"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-81.0439877,36.070527]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Montreal",
+    "country": "Canada",
+    "continent": "North America",
+    "profession": "Airline admin",
+    "url": "https://imgur.com/gallery/qG6Z4",
+    "date": "2017-12-29"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-73.6843904,45.5374633]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Austin",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Sous chef",
+    "url": "https://imgur.com/gallery/3UJky",
+    "date": "2017-12-31"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-97.7605172,30.3002175]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Alberta",
+    "country": "Canada",
+    "continent": "North America",
+    "profession": "Carpenter",
+    "url": "https://imgur.com/gallery/vsyha",
+    "date": "2018-02-02"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-118.9376323,55.7750611]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Las Vegas",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Hotel technologist",
+    "url": "https://imgur.com/gallery/cXFLv",
+    "date": "2017-12-30"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-115.3150831,36.1249185]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Saint Paul, MN",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Restaurant worker",
+    "url": "https://imgur.com/gallery/TIwCl",
+    "date": "2018-01-30"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-93.2100417,44.9640754]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Jerusalem",
+    "country": "Israel",
+    "continent": "Asia",
+    "profession": "Student",
+    "url": "https://imgur.com/gallery/hWamJ",
+    "date": "2016-07-14"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [35.1053192,31.7962994]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Baran-Ri",
+    "country": "South Korea",
+    "continent": "Asia",
+    "profession": "Military",
+    "url": "https://imgur.com/gallery/1VMFH",
+    "date": "2016-08-12"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [126.8926511,37.1308054]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Larvik",
+    "country": "Norway",
+    "continent": "Europe",
+    "profession": "Logistics",
+    "url": "https://imgur.com/gallery/XeWKl",
+    "date": "2016-07-27"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [10.0988635,59.1187545]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Sidney",
+    "country": "Australia",
+    "continent": "Oceania",
+    "profession": "",
+    "url": "https://imgur.com/gallery/Ys6LI",
+    "date": "2016-12-27"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [151.1693764,-33.8910735]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Bergen",
+    "country": "Norway",
+    "continent": "Europe",
+    "profession": "Administrative",
+    "url": "https://imgur.com/gallery/tga5B",
+    "date": "2017-02-04"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [5.2740653,60.3553829]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Darjeeling",
+    "country": "India",
+    "continent": "Asia",
+    "profession": "",
+    "url": "https://imgur.com/gallery/ViPvL",
+    "date": "2016-12-23"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [88.2569501,27.0339295]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Sanford, FL",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Web developer",
+    "url": "https://imgur.com/gallery/bSL98",
+    "date": "2017-01-12"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-81.2903672,28.7908893]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Weiden in der Oberpfalz",
+    "country": "Germany",
+    "continent": "Europe",
+    "profession": "Software developer",
+    "url": "https://imgur.com/gallery/mKPEx",
+    "date": "2016-12-31"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [12.095364,49.6640698]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Hell",
+    "country": "Norway",
+    "continent": "Europe",
+    "profession": "",
+    "url": "https://imgur.com/gallery/Xiioy",
+    "date": "2017-05-27"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [10.8879918,63.444204]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Tokyo",
+    "country": "Japan",
+    "continent": "Asia",
+    "profession": "Software developer",
+    "url": "https://imgur.com/gallery/d7z1K",
+    "date": "2017-12-27"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [139.7611172,35.6695585]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Rockwall, TX",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Counsellor",
+    "url": "https://imgur.com/gallery/FvoX6",
+    "date": "2016-07-16"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-96.460565,32.9179711]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Kansas City",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Social worker",
+    "url": "https://imgur.com/gallery/WmrSt",
+    "date": "2016-12-20"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-94.7597062,39.1141781]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Mumbai",
+    "country": "India",
+    "continent": "Asia",
+    "profession": "Student",
+    "url": "https://imgur.com/gallery/Z9JpV",
+    "date": "2016-11-04"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [72.8702464,19.0827494]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Kent, WA",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Benefit analyst",
+    "url": "https://imgur.com/gallery/4cELM",
+    "date": "2016-12-06"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-122.2367525,47.3796711]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Negros Island",
+    "country": "Philippines",
+    "continent": "Asia",
+    "profession": "Accountant",
+    "url": "https://imgur.com/gallery/ZGeJ3",
+    "date": "2016-07-15"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [122.9568279,10.6605593]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Mersch",
+    "country": "Luxembourg",
+    "continent": "Europe",
+    "profession": "Educator",
+    "url": "https://imgur.com/gallery/xBDST",
+    "date": "2016-07-16"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [5.9600707,49.692686]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Edmonton",
+    "country": "Canada",
+    "continent": "North America",
+    "profession": "Unemployed",
+    "url": "https://imgur.com/gallery/GG4e3",
+    "date": "2016-07-10"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-113.3895795,53.5400518]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Austin 2, TX",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Scene designer",
+    "url": "https://imgur.com/gallery/C41UJ",
+    "date": "2016-12-11"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-97.79021,30.2003707]
+	}
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "New Jersey",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "EMT",
+    "url": "https://imgur.com/gallery/TgR8R",
+    "date": "2017-01-07"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-74.4056612,40.0583238]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Athens",
+    "country": "Greece",
+    "continent": "Europe",
+    "profession": "Graphic designer",
+    "url": "https://imgur.com/gallery/07b2F",
+    "date": "2016-11-06"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [23.7275388,37.9838096]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Melbourne",
+    "country": "Australia",
+    "continent": "Oceania",
+    "profession": "Baker",
+    "url": "https://imgur.com/gallery/Ptyid",
+    "date": "2016-07-13"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [144.9630576,-37.8136276]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Tacen",
+    "country": "Slovenia",
+    "continent": "Europe",
+    "profession": "Mountain hut cook",
+    "url": "https://imgur.com/gallery/dWNH5",
+    "date": "2017-01-14"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [14.4610995,46.11871319999999]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Tunis",
+    "country": "Tunisia",
+    "continent": "Africa",
+    "profession": "Marketing and communications",
+    "url": "https://imgur.com/gallery/UWEjT",
+    "date": "2016-12-27"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [10.1815316,36.8064948]
+  }
+}
+,
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Montréal",
+    "country": "Canada",
+    "continent": "North America",
+    "profession": "Broadcast technician",
+    "url": "https://imgur.com/gallery/DyPhp",
+    "date": "2016-07-11"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-73.567256,45.5016889]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Powhatan",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Student",
+    "url": "https://imgur.com/gallery/fEnBy",
+    "date": "2016-12-02"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-77.91882389999999,37.5415273]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Gurgaon",
+    "country": "India",
+    "continent": "Asia",
+    "profession": "Marketing communications",
+    "url": "https://imgur.com/gallery/AMK7r",
+    "date": "2016-07-12"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [77.0266383,28.4594965]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Seoul",
+    "country": "South Korea",
+    "continent": "Asia",
+    "profession": "English teacher",
+    "url": "https://imgur.com/gallery/p2ou3",
+    "date": "2016-07-21"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [126.98653,37.5411156]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Queens, NY",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Criminal law",
+    "url": "https://imgur.com/gallery/ZLl0k",
+    "date": "2016-12-06"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-73.7948516,40.7282239]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Brisbane",
+    "country": "Australia",
+    "continent": "Oceania",
+    "profession": "Broadcast Support Engineer",
+    "url": "https://imgur.com/gallery/v6eJ5",
+    "date": "2017-01-11"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [153.0251235,-27.4697707]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Kokkola",
+    "country": "Finland",
+    "continent": "Europe",
+    "profession": "",
+    "url": "https://imgur.com/gallery/ajN7Q",
+    "date": "2016-04-17"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [23.1250337,63.8415002]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Kyoto",
+    "country": "Japan",
+    "continent": "Asia",
+    "profession": "",
+    "url": "https://imgur.com/gallery/VQrlb",
+    "date": "2017-01-05"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [135.7680294,35.0116363]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Jeromesville, OH",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Stay at home mother",
+    "url": "https://imgur.com/gallery/W4yLi",
+    "date": "2016-07-11"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-82.195712,40.8042238]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Gulf of Mexico",
+    "country": "None",
+    "continent": "North America",
+    "profession": "ROV pilot",
+    "url": "https://imgur.com/gallery/FzXdC",
+    "date": "2016-07-30"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-90.065918,25.304304]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Rossendale",
+    "country": "United Kingdom",
+    "continent": "Europe",
+    "profession": "",
+    "url": "https://imgur.com/gallery/a2Wyi",
+    "date": "2016-07-08"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-2.2559579,53.6940302]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "A Coruña",
+    "country": "Spain",
+    "continent": "Europe",
+    "profession": "Administrative assistant",
+    "url": "https://imgur.com/gallery/o9cA5",
+    "date": "2016-08-16"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-8.4115401,43.3623436]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Kassel",
+    "country": "Germany",
+    "continent": "Europe",
+    "profession": "Museum guardian",
+    "url": "https://imgur.com/gallery/5xhme",
+    "date": "2016-10-13"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [9.4797461,51.3127114]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Riihimäki",
+    "country": "Finland",
+    "continent": "Europe",
+    "profession": "Scale repairman",
+    "url": "https://imgur.com/gallery/ZRcxW",
+    "date": "2017-09-13"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [24.7548524,60.7373073]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Dublin",
+    "country": "Ireland",
+    "continent": "Europe",
+    "profession": "Paypal tech",
+    "url": "https://imgur.com/gallery/BcIOX",
+    "date": "2017-10-05"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-6.2603097,53.3498053]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "San Diego",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Brewer, barista",
+    "url": "https://imgur.com/gallery/vM2gu",
+    "date": "2016-07-12"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-117.1610838,32.715738]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "London",
+    "country": "United Kingdom",
+    "continent": "Europe",
+    "profession": "Fashion lecturer",
+    "url": "https://imgur.com/gallery/0bXaK",
+    "date": "2017-01-20"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-0.1277583,51.5073509]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Auckland 2",
+    "country": "New Zealand",
+    "continent": "Oceania",
+    "profession": "Construction worker",
+    "url": "https://imgur.com/gallery/8Is4o",
+    "date": "2016-07-10"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [174.7633315,-36.8484597]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Aversa",
+    "country": "Italy",
+    "continent": "Europe",
+    "profession": "Computer technician",
+    "url": "https://imgur.com/gallery/U5QGm",
+    "date": "2017-12-07"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [14.2076688,40.9731743]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "San Diego",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Student",
+    "url": "https://imgur.com/gallery/kgIvr",
+    "date": "2016-12-15"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-117.1610838,32.715738]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Silicon Valley",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Non-profit activist",
+    "url": "https://imgur.com/gallery/9MK7l",
+    "date": "2016-10-20"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-122.0575434,37.387474]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Berlin",
+    "country": "Germany",
+    "continent": "Europe",
+    "profession": "",
+    "url": "https://imgur.com/gallery/1yPQd",
+    "date": "2016-07-07"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [13.404954,52.52000659999999]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Umeå",
+    "country": "Sweden",
+    "continent": "Europe",
+    "profession": "School librarian",
+    "url": "https://imgur.com/gallery/QT1RU",
+    "date": "2017-01-13"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [20.2630354,63.8258471]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Buenos Aires",
+    "country": "Argentina",
+    "continent": "South America",
+    "profession": "Teacher, translator",
+    "url": "https://imgur.com/gallery/hqoc9",
+    "date": "2016-09-05"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-58.3815591,-34.6036844]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Johnson City, TN",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Trial lawyer",
+    "url": "https://imgur.com/gallery/4xYBI",
+    "date": "2016-07-11"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-82.3534727,36.3134397]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Ocean View Hawai'i",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Recording studior",
+    "url": "https://imgur.com/gallery/JNlRd",
+    "date": "2017-01-13"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-155.7649999,19.068611]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Spokane, WA",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Television writer",
+    "url": "https://imgur.com/gallery/hkHB4",
+    "date": "2016-07-13"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-117.4260465,47.6587802]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Easton, PA",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Dog walker",
+    "url": "https://imgur.com/gallery/OGfwI",
+    "date": "2016-08-20"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-75.2207323,40.688432]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Sidney",
+    "country": "Australia",
+    "continent": "Oceania",
+    "profession": "Student",
+    "url": "https://imgur.com/gallery/lXzW3",
+    "date": "2016-07-14"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-84.1554987,40.2842164]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Masterton",
+    "country": "New Zealand",
+    "continent": "Oceania",
+    "profession": "Barista",
+    "url": "https://imgur.com/gallery/9LuWE",
+    "date": "2016-07-08"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [175.6573502,-40.9511118]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Härnösand",
+    "country": "Sweden",
+    "continent": "Europe",
+    "profession": "Web technician",
+    "url": "https://imgur.com/gallery/squrQ",
+    "date": "2016-07-09"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [17.9408714,62.6322698]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Cologne",
+    "country": "Germany",
+    "continent": "Europe",
+    "profession": "Electrician's apprentice",
+    "url": "https://imgur.com/gallery/NLY5m",
+    "date": "2016-11-14"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [6.9602786,50.937531]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Singapore",
+    "country": "Singapore",
+    "continent": "Asia",
+    "profession": "Chef",
+    "url": "https://imgur.com/gallery/fmn7y",
+    "date": "2016-07-09"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [103.819836,1.352083]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Pensacola, FL",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Helicopter pilot",
+    "url": "https://imgur.com/gallery/Cp8Yw",
+    "date": "2016-07-15"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-87.2169149,30.42130899999999]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Rural KY",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Community advocate",
+    "url": "https://imgur.com/gallery/8v1Jc",
+    "date": "2017-01-15"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-83.1238448,37.2215273]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Thornbury",
+    "country": "Australia",
+    "continent": "Oceania",
+    "profession": "Musician",
+    "url": "https://imgur.com/gallery/RJ9mM",
+    "date": "2016-07-14"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-96.69543639999999,33.0727188]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Parma",
+    "country": "Italy",
+    "continent": "Europe",
+    "profession": "Student",
+    "url": "https://imgur.com/gallery/fTGsj",
+    "date": "2017-03-01"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [10.3279036,44.801485]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "New York City",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "",
+    "url": "https://imgur.com/gallery/An60a",
+    "date": "2016-08-17"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-74.0059728,40.7127753]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Cluj-Napoca",
+    "country": "Romania",
+    "continent": "Europe",
+    "profession": "Software quality assurance",
+    "url": "https://imgur.com/gallery/lzilD",
+    "date": "2016-07-13"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [23.6236353,46.7712101]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Cornwall",
+    "country": "United Kingdom",
+    "continent": "Europe",
+    "profession": "Student",
+    "url": "https://imgur.com/gallery/OCH4k",
+    "date": "2016-12-01"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-5.0527125,50.26604709999999]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Silkeborg",
+    "country": "Denmark",
+    "continent": "Europe",
+    "profession": "Archaeologist",
+    "url": "https://imgur.com/gallery/X0BXs",
+    "date": "2016-09-04"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [9.5549217,56.176362]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Toronto",
+    "country": "Canada",
+    "continent": "North America",
+    "profession": "",
+    "url": "https://imgur.com/gallery/WZQM9",
+    "date": "2016-07-13"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-79.339677,43.6836531]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Izumo",
+    "country": "Japan",
+    "continent": "Asia",
+    "profession": "",
+    "url": "https://imgur.com/gallery/Xtbtm",
+    "date": "2017-01-12"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [132.7546815,35.3670351]
+  }
+}
+,
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Sofia",
+    "country": "Bulgaria",
+    "continent": "Europe",
+    "profession": "Doctor",
+    "url": "https://imgur.com/gallery/kmkjm",
+    "date": "2016-07-14"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [23.3218675,42.6977082]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Leitrim",
+    "country": "Ireland",
+    "continent": "Europe",
+    "profession": "Farmer",
+    "url": "https://imgur.com/gallery/vaEm2",
+    "date": "2016-07-12"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-8.0020132,54.1246909]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Auckland",
+    "country": "New Zealand",
+    "continent": "Oceania",
+    "profession": "Medical device engineer",
+    "url": "https://imgur.com/gallery/7tbnT",
+    "date": "2016-07-15"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [174.7633315,-36.8484597]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Ontario",
+    "country": "Canada",
+    "continent": "North America",
+    "profession": "Editor",
+    "url": "https://imgur.com/gallery/Em1Pv",
+    "date": "2016-07-15"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-85.323214,51.253775]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Paris",
+    "country": "France",
+    "continent": "Europe",
+    "profession": "",
+    "url": "https://imgur.com/gallery/0NPCR",
+    "date": "2016-07-15"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [2.3522219,48.856614]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Dortmund",
+    "country": "Germany",
+    "continent": "Europe",
+    "profession": "Student",
+    "url": "https://imgur.com/gallery/lNP7Q",
+    "date": "2016-11-27"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [7.465298100000001,51.5135872]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Daegu",
+    "country": "South Korea",
+    "continent": "Asia",
+    "profession": "English teacher",
+    "url": "https://imgur.com/gallery/wLLXg",
+    "date": "2016-08-29"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [128.601445,35.8714354]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "London",
+    "country": "United Kingdom",
+    "continent": "Europe",
+    "profession": "Account manager manager",
+    "url": "https://imgur.com/gallery/YojTN",
+    "date": "2016-10-19"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-0.2255958,51.5569944]
+  }
+}
+,
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Houston, TX",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Drilling engineer",
+    "url": "https://imgur.com/gallery/JpLit",
+    "date": "2016-07-15"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-95.3698028,29.7604267]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Rural Nebraska",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Wheat farmer",
+    "url": "https://imgur.com/gallery/7z8kf",
+    "date": "2016-07-16"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-102.7868103,41.2051457]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Cleveland, OH",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Navy reservist",
+    "url": "https://imgur.com/gallery/c8p22",
+    "date": "2016-11-24"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-81.6943605,41.49932]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Melbourne",
+    "country": "Australia",
+    "continent": "Oceania",
+    "profession": "IT support",
+    "url": "https://imgur.com/gallery/9vZWD",
+    "date": "2017-01-02"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [144.9630576,-37.8136276]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Pudong, Shanghai",
+    "country": "China",
+    "continent": "Asia",
+    "profession": "Student",
+    "url": "https://imgur.com/gallery/Ky7d6",
+    "date": "2016-07-12"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [121.544379,31.221517]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Bay Area, CA",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Fast food",
+    "url": "https://imgur.com/gallery/uoI97",
+    "date": "2016-07-21"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-122.2913078,37.8271784]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Stornoway",
+    "country": "United Kingdom",
+    "continent": "Europe",
+    "profession": "Water QA",
+    "url": "https://imgur.com/gallery/n8aRd",
+    "date": "2016-11-26"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-6.3848692,58.209435]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Wellington",
+    "country": "New Zealand",
+    "continent": "Oceania",
+    "profession": "University staff",
+    "url": "https://imgur.com/gallery/UqVVE",
+    "date": "2016-07-14"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [174.776236,-41.2864603]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "San Francisco",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Tech worker",
+    "url": "https://imgur.com/gallery/HyN1z",
+    "date": "2016-07-15"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-122.4194155,37.7749295]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Brisbane",
+    "country": "Australia",
+    "continent": "Oceania",
+    "profession": "IT contracting and recruitment",
+    "url": "https://imgur.com/gallery/WMeeo",
+    "date": "2016-07-29"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [153.0251235,-27.4697707]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Calgary",
+    "country": "Canada",
+    "continent": "North America",
+    "profession": "",
+    "url": "https://imgur.com/gallery/ZiPzH",
+    "date": "2016-07-20"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-114.0708459,51.0486151]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Newry, Northern Ireland",
+    "country": "United Kingdom",
+    "continent": "Europe",
+    "profession": "Student",
+    "url": "https://imgur.com/gallery/rFC8c",
+    "date": "2016-12-31"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-6.3685468,54.1700082]
+  }
+}
+,
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Abu Dhabi",
+    "country": "United Arab Emirates",
+    "continent": "Asia",
+    "profession": "Personal assistant",
+    "url": "https://imgur.com/gallery/AoyN9",
+    "date": "2016-07-18"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [54.3773438,24.453884]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Manila",
+    "country": "Philippines",
+    "continent": "Asia",
+    "profession": "",
+    "url": "https://imgur.com/gallery/WjIKv",
+    "date": "2016-12-31"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [120.9842195,14.5995124]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Philadelphia",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "",
+    "url": "https://imgur.com/gallery/RlXGB",
+    "date": "2016-07-24"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-75.1652215,39.9525839]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Victoria, BC",
+    "country": "Canada",
+    "continent": "North America",
+    "profession": "Arborist",
+    "url": "https://imgur.com/gallery/CYR9j",
+    "date": "2017-01-11"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-123.3656444,48.4284207]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Oxford",
+    "country": "United Kingdom",
+    "continent": "Europe",
+    "profession": "Student",
+    "url": "https://imgur.com/gallery/WB1gd",
+    "date": "2016-11-13"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-1.2577263,51.7520209]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Guadalajara",
+    "country": "Mexico",
+    "continent": "North America",
+    "profession": "Civil engineer",
+    "url": "https://imgur.com/gallery/6ecRs",
+    "date": "2016-07-10"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-103.3496092,20.6596988]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Zürich",
+    "country": "Switzerland",
+    "continent": "Europe",
+    "profession": "Casino dealer",
+    "url": "https://imgur.com/gallery/lNTOi",
+    "date": "2017-01-13"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [8.541694,47.3768866]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Bangkok",
+    "country": "Thailand",
+    "continent": "Asia",
+    "profession": "",
+    "url": "https://imgur.com/gallery/32vX5",
+    "date": "2016-07-13"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [100.5017651,13.7563309]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Unknown",
+    "country": "Saudi Arabia",
+    "continent": "Asia",
+    "profession": "English teacher",
+    "url": "https://imgur.com/gallery/rDQfg",
+    "date": "2015-10-19"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [45.079162,23.885942]
+  }
+}
+,
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Cape Town",
+    "country": "South Africa",
+    "continent": "Africa",
+    "profession": "Graphic/web designer",
+    "url": "https://imgur.com/gallery/DRJXb",
+    "date": "2016-08-11"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [18.4240553,-33.9248685]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Norwich",
+    "country": "United Kingdom",
+    "continent": "Europe",
+    "profession": "Student",
+    "url": "https://imgur.com/gallery/1DzkY",
+    "date": "2015-10-21"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-72.307869,43.7153482]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Nieuwpoort",
+    "country": "Belgium",
+    "continent": "Europe",
+    "profession": "Student",
+    "url": "https://imgur.com/gallery/CIZYe",
+    "date": "2016-07-17"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [2.7480158,51.12848229999999]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Archer Lodge, NC",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Dispersion modeller",
+    "url": "https://imgur.com/gallery/lgoUX",
+    "date": "2016-07-13"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-78.3753583,35.694052]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Dublin",
+    "country": "Ireland",
+    "continent": "Europe",
+    "profession": "Baker",
+    "url": "https://imgur.com/gallery/PnLh6",
+    "date": "2016-08-11"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-6.2603097,53.3498053]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Muri",
+    "country": "Switzerland",
+    "continent": "Europe",
+    "profession": "Student, IT apprentice",
+    "url": "https://imgur.com/gallery/Y5Ecv",
+    "date": "2016-11-24"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [8.341556599999999,47.2735792]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Barra",
+    "country": "United Kingdom",
+    "continent": "Europe",
+    "profession": "",
+    "url": "https://imgur.com/gallery/vrMxX",
+    "date": "2016-12-31"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-7.456795899999999,56.9808838]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Invisible Island",
+    "country": "United Kingdom",
+    "continent": "Antarctica",
+    "profession": "",
+    "url": "https://imgur.com/gallery/3FTMd",
+    "date": "2015-01-21"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-37.3167968,-54.0166562]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Tucson, AZ",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Network support",
+    "url": "https://imgur.com/gallery/g7a94",
+    "date": "2016-12-07",
+    "special": "told from a perspective of a dog, but not just about itself."
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-110.926479,32.2217429]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Manila",
+    "country": "Philippines",
+    "continent": "Asia",
+    "profession": "Video guy",
+    "url": "https://imgur.com/gallery/j84r9",
+    "date": "2016-07-14"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [120.9842195,14.5995124]
+  }
+}
+,
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Singapore",
+    "country": "Singapore",
+    "continent": "Asia",
+    "profession": "Construction analyst",
+    "url": "https://imgur.com/gallery/GRhNW",
+    "date": "2016-07-20"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [103.819836,1.352083]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Pretoria",
+    "country": "South Africa",
+    "continent": "Africa",
+    "profession": "Construction manager",
+    "url": "https://imgur.com/gallery/UoAEx",
+    "date": "2016-08-07"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [28.2292712,-25.7478676]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Quezon City, Manila",
+    "country": "Philippines",
+    "continent": "Asia",
+    "profession": "",
+    "url": "https://imgur.com/gallery/JRLk0",
+    "date": "2016-07-10"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [121.0437003,14.6760413]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Haifa",
+    "country": "Israel",
+    "continent": "Asia",
+    "profession": "Administration assistant",
+    "url": "https://imgur.com/gallery/QdoYf",
+    "date": "2016-07-22"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [34.989571,32.7940463]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Stockholm area",
+    "country": "Sweden",
+    "continent": "Europe",
+    "profession": "",
+    "url": "https://imgur.com/gallery/YT9Mz",
+    "date": "2016-07-19"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [17.2358828,59.5035692]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Valle de Angeles",
+    "country": "Honduras",
+    "continent": "North America",
+    "profession": "Educator",
+    "url": "https://imgur.com/gallery/HRJOM",
+    "date": "2016-07-14"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-87.03994039999999,14.160407]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Wilmington, DE",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "",
+    "url": "https://imgur.com/gallery/LAAnW",
+    "date": "2016-07-12"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-75.5397878,39.7390721]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Xian",
+    "country": "China",
+    "continent": "Asia",
+    "profession": "Academic center manager",
+    "url": "https://imgur.com/gallery/UR6mT",
+    "date": "2017-01-18"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [108.93977,34.341574]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "The Beach, Toronto",
+    "country": "Canada",
+    "continent": "North America",
+    "profession": "Theatre manager",
+    "url": "https://imgur.com/gallery/XJtmO",
+    "date": "2016-07-12"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-79.29669299999999,43.6673479]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Durham",
+    "country": "United Kingdom",
+    "continent": "Europe",
+    "profession": "Student",
+    "url": "https://imgur.com/gallery/ShHnz",
+    "date": "2016-07-22"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-78.898619,35.9940329]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "San Francisco",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Performer, facilities manager",
+    "url": "https://imgur.com/gallery/GlxNb",
+    "date": "2016-07-11"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-122.4194155,37.7749295]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Barajas, Madrid",
+    "country": "Spain",
+    "continent": "Europe",
+    "profession": "Student",
+    "url": "https://imgur.com/gallery/Rxd2w",
+    "date": "2016-07-12"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-3.5951518,40.4653704]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Pisa",
+    "country": "Italy",
+    "continent": "Europe",
+    "profession": "Student",
+    "url": "https://imgur.com/gallery/8IS4K",
+    "date": "2017-04-17"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [10.4016888,43.7228386]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Holon",
+    "country": "Israel",
+    "continent": "Asia",
+    "profession": "Student",
+    "url": "https://imgur.com/gallery/iceQE",
+    "date": "2016-07-13"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [34.787384,32.015833]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Westlake, UT",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Student",
+    "url": "https://imgur.com/gallery/7ZqE7",
+    "date": "2017-04-14"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-111.922987,40.364043]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Portland, OR",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Bartender",
+    "url": "https://imgur.com/gallery/Aps4f",
+    "date": "2016-07-19"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-122.6764815,45.5230622]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Austin, TX",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Project manager",
+    "url": "https://imgur.com/gallery/BsEwC",
+    "date": "2016-07-20"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-97.7430608,30.267153]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Portland, OR",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Project manager",
+    "url": "https://imgur.com/gallery/WJreB",
+    "date": "2016-07-30"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-122.6764815,45.5230622]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Cambridge",
+    "country": "United Kingdom",
+    "continent": "Europe",
+    "profession": "Projectionist",
+    "url": "https://imgur.com/gallery/ClczG",
+    "date": "2016-07-20"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [0.121817,52.205337]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Conroe, TX",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Renting",
+    "url": "https://imgur.com/gallery/J5hoq",
+    "date": "2016-08-14"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-95.45605119999999,30.3118769]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Helsinki",
+    "country": "Finland",
+    "continent": "Europe",
+    "profession": "Tech support",
+    "url": "https://imgur.com/gallery/p2gHi",
+    "date": "2016-07-26"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [24.9383791,60.16985569999999]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Colorado Springs, CO",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "",
+    "url": "https://imgur.com/gallery/tHjEd",
+    "date": "2016-07-18"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-104.8213634,38.8338816]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Bangalore",
+    "country": "India",
+    "continent": "Asia",
+    "profession": "IT engineer",
+    "url": "https://imgur.com/gallery/PDeO7",
+    "date": "2016-07-14"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [77.5945627,12.9715987]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Schweinfurt",
+    "country": "Germany",
+    "continent": "Europe",
+    "profession": "",
+    "url": "https://imgur.com/gallery/XxqBT",
+    "date": "2016-07-25"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [10.2194227,50.0492047]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "London",
+    "country": "United Kingdom",
+    "continent": "Europe",
+    "profession": "Student",
+    "url": "https://imgur.com/gallery/fjjto",
+    "date": "2016-07-20"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-0.1277583,51.5073509]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Newhall, IA",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Cow farmer",
+    "url": "https://imgur.com/gallery/SwVP5",
+    "date": "2017-02-03"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-91.9676815,41.9955551]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Chicago",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "",
+    "url": "https://imgur.com/gallery/rICOD",
+    "date": "2016-07-22"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-87.6297982,41.8781136]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Galati",
+    "country": "Romania",
+    "continent": "Europe",
+    "profession": "Software developer",
+    "url": "https://imgur.com/gallery/uJLRe",
+    "date": "2017-01-13"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [28.0079945,45.4353208]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Bundang",
+    "country": "South Korea",
+    "continent": "Asia",
+    "profession": "English teacher",
+    "url": "https://imgur.com/gallery/4lQxI",
+    "date": "2016-07-30"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [127.1189057,37.382699]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Oceanside, CA",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Artisan",
+    "url": "https://imgur.com/gallery/ADJO9",
+    "date": "2016-07-16"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-117.3794834,33.1958696]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Hetton",
+    "country": "United Kingdom",
+    "continent": "Europe",
+    "profession": "Fish care apprentice",
+    "url": "https://imgur.com/gallery/2MXFc",
+    "date": "2016-07-18"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-2.0606397,54.0248297]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Calgary",
+    "country": "Canada",
+    "continent": "North America",
+    "profession": "",
+    "url": "https://imgur.com/gallery/fQnMz",
+    "date": "2016-07-13"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-114.0708459,51.0486151]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Toronto",
+    "country": "Canada",
+    "continent": "North America",
+    "profession": "QA Analyst",
+    "url": "https://imgur.com/gallery/GOJWC",
+    "date": "2016-07-16"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-79.3831843,43.653226]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Macau",
+    "country": "China",
+    "continent": "Asia",
+    "profession": "",
+    "url": "https://imgur.com/gallery/SlvBY",
+    "date": "2016-07-08"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [113.543873,22.198745]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Cincinnati, OH",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "IT engineer",
+    "url": "https://imgur.com/gallery/oeIc4",
+    "date": "2017-03-11"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-84.5120196,39.1031182]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Vine Hill, CA",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "",
+    "url": "https://imgur.com/gallery/Ixr5T",
+    "date": "2016-07-21"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-122.0960753,38.0085326]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Newton, NH",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Stablehand, Chef, Bar owner",
+    "url": "https://imgur.com/gallery/vUBI0",
+    "date": "2016-08-31"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-71.0345018,42.8695335]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Castaic, CA",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "",
+    "url": "https://imgur.com/gallery/oRxdi",
+    "date": "2016-07-11"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-118.6256552,34.4890363]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Wellington",
+    "country": "New Zealand",
+    "continent": "Oceania",
+    "profession": "",
+    "url": "https://imgur.com/gallery/9BvSy",
+    "date": "2016-07-12"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-94.670158,38.893454]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Melbourne",
+    "country": "Australia",
+    "continent": "Oceania",
+    "profession": "Stay-at-home dad",
+    "url": "https://imgur.com/gallery/dI7tM",
+    "date": "2016-12-15"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [144.9630576,-37.8136276]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Kent, OH",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Student",
+    "url": "https://imgur.com/gallery/TJVo4",
+    "date": "2016-07-09"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-81.3578859,41.1536674]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Brandon, FL",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Teacher",
+    "url": "https://imgur.com/gallery/uDZQ5",
+    "date": "2016-07-14"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-82.2859247,27.937801]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Silverpine village",
+    "country": "Eastern Kingdoms",
+    "continent": "Unknown",
+    "profession": "",
+    "url": "https://imgur.com/gallery/xOFAi",
+    "date": "2016-07-16"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-79.8491598,43.3574978]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Capetown",
+    "country": "South Africa",
+    "continent": "Africa",
+    "profession": "",
+    "url": "https://imgur.com/gallery/40nXo",
+    "date": "2016-08-10"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [18.4240553,-33.9248685]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Hamburg",
+    "country": "Germany",
+    "continent": "Europe",
+    "profession": "Programmer",
+    "url": "https://imgur.com/gallery/Ty9ov",
+    "date": "2016-07-13"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [9.9936819,53.5510846]
+  }
+}
+,
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Hillsborough, NC",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Stable hand",
+    "url": "https://imgur.com/gallery/TPTHx",
+    "date": "2016-07-13"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-79.0997347,36.0754183]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Istanbul",
+    "country": "Turkey",
+    "continent": "Asia",
+    "profession": "Finance",
+    "url": "https://imgur.com/gallery/yUiMH",
+    "date": "2016-07-14"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [28.9783589,41.0082376]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Rotterdam",
+    "country": "Netherlands",
+    "continent": "Europe",
+    "profession": "",
+    "url": "https://imgur.com/gallery/dy7aR",
+    "date": "2017-03-03"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [4.4777326,51.9244201]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Daejeon",
+    "country": "South Korea",
+    "continent": "Asia",
+    "profession": "English teacher",
+    "url": "https://imgur.com/gallery/0s0db",
+    "date": "2016-07-13"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [127.3845475,36.3504119]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Zagreb",
+    "country": "Croatia",
+    "continent": "Europe",
+    "profession": "Student",
+    "url": "https://imgur.com/gallery/2Wc3V",
+    "date": "2016-07-13"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [15.9819189,45.8150108]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Campinas",
+    "country": "Brazil",
+    "continent": "South America",
+    "profession": "Chemical engineer",
+    "url": "https://imgur.com/gallery/p6Wvh",
+    "date": "2016-10-20"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-47.0625812,-22.9098833]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Fort Wayne, IN",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "General contractor",
+    "url": "https://imgur.com/gallery/ZmdHU",
+    "date": "2016-07-13"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-85.1393513,41.079273]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Taastrup",
+    "country": "Denmark",
+    "continent": "Europe",
+    "profession": "",
+    "url": "https://imgur.com/gallery/EqHZs",
+    "date": "2016-07-14"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [12.2979366,55.6460162]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Playa Del Carmen",
+    "country": "Mexico",
+    "continent": "North America",
+    "profession": "",
+    "url": "https://imgur.com/gallery/TGcGf",
+    "date": "2016-07-19"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-87.0738851,20.6295586]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Boston, MA",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Physicist",
+    "url": "https://imgur.com/gallery/pR6jW",
+    "date": "2016-07-12"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-71.0588801,42.3600825]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Melbourne",
+    "country": "Australia",
+    "continent": "Oceania",
+    "profession": "Community mental health service admin",
+    "url": "https://imgur.com/gallery/600qW",
+    "date": "2016-07-15"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [144.9630576,-37.8136276]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Vladivostok, Artyom",
+    "country": "Russia",
+    "continent": "Asia",
+    "profession": "",
+    "url": "https://imgur.com/gallery/hEkeH",
+    "date": "2016-07-13"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [132.1267342,43.3554366]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Waterford, ON",
+    "country": "Canada",
+    "continent": "North America",
+    "profession": "",
+    "url": "https://imgur.com/gallery/f7MFk",
+    "date": "2016-07-21"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-80.2895832,42.9316056]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Centerport, NY",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Web designer",
+    "url": "https://imgur.com/gallery/JHwPe",
+    "date": "2016-07-12"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-73.3678388,40.8991963]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Cumbria",
+    "country": "United Kingdom",
+    "continent": "Europe",
+    "profession": "Drayman",
+    "url": "https://imgur.com/gallery/imH3k",
+    "date": "2016-07-14"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-2.7974835,54.5772323]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Dorking, Surrey",
+    "country": "United Kingdom",
+    "continent": "Europe",
+    "profession": "Bard",
+    "url": "https://imgur.com/gallery/SRsh1",
+    "date": "2013-02-27"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-0.332378,51.232202]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Nashville, TN",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "",
+    "url": "https://imgur.com/gallery/ieg4J",
+    "date": "2016-07-15"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-86.7816016,36.1626638]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Copenhagen",
+    "country": "Denmark",
+    "continent": "Europe",
+    "profession": "Operations developer",
+    "url": "https://imgur.com/gallery/Zyisz",
+    "date": "2016-07-12"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [12.5683372,55.6760968]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Boulder, CO",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Climbing guide",
+    "url": "https://imgur.com/gallery/tkfzq",
+    "date": "2016-09-02"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-105.2705456,40.0149856]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "New York City",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Animal shelter worker",
+    "url": "https://imgur.com/gallery/aznE7",
+    "date": "2016-07-19"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-74.0059728,40.7127753]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Tampere",
+    "country": "Finland",
+    "continent": "Europe",
+    "profession": "Magician",
+    "url": "https://imgur.com/gallery/zX80v",
+    "date": "2016-07-22"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [23.7609535,61.4977524]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Piedmont, NC",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Accountant",
+    "url": "https://imgur.com/gallery/AUOQP",
+    "date": "2016-07-18"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-79.66194879999999,36.35587599999999]
+  }
+}
+,
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Bayahibe",
+    "country": "Dominican Republic",
+    "continent": "North America",
+    "profession": "Diving conservationist",
+    "url": "https://imgur.com/gallery/FlEHZ",
+    "date": "2017-05-11"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-68.7512681,18.3189059]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Gabriola Island",
+    "country": "Canada",
+    "continent": "North America",
+    "profession": "Sailmaker",
+    "url": "https://imgur.com/gallery/1DwBP",
+    "date": "2016-07-16"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-123.7893349,49.1577754]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Norfolk, VA",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Professor",
+    "url": "https://imgur.com/gallery/nO22w",
+    "date": "2016-07-07"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-76.28587259999999,36.8507689]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Rancho Cucamonga, CA",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Student",
+    "url": "https://imgur.com/gallery/hQIGP",
+    "date": "2016-07-13"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-117.5931084,34.10639889999999]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Woodbridge, VA",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Teacher",
+    "url": "https://imgur.com/gallery/3QUWI",
+    "date": "2016-07-13"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-77.2497049,38.6581722]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Palmerston",
+    "country": "New Zealand",
+    "continent": "Oceania",
+    "profession": "Wine trader",
+    "url": "https://imgur.com/gallery/upQKx",
+    "date": "2016-07-14"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [175.5599901,-40.3532284]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Burlington, VA",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Segway guide",
+    "url": "https://imgur.com/gallery/imDVL",
+    "date": "2016-07-11"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-73.21207199999999,44.4758825]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "San Antonio, TX",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Non-medical caregiver",
+    "url": "https://imgur.com/gallery/dyW7H",
+    "date": "2016-08-08"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-98.49362819999999,29.4241219]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Cambridge",
+    "country": "United Kingdom",
+    "continent": "Europe",
+    "profession": "Data analyst",
+    "url": "https://imgur.com/gallery/YyMLI",
+    "date": "2016-07-14"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [0.121817,52.205337]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Portland, OR",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Aerialist",
+    "url": "https://imgur.com/gallery/Yv5ow",
+    "date": "2016-07-08"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-122.6764815,45.5230622]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Dallas, TX",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Jeweler",
+    "url": "https://imgur.com/gallery/Gb1Si",
+    "date": "2016-07-10"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-96.79698789999999,32.7766642]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Chocolate Cove",
+    "country": "Canada",
+    "continent": "North America",
+    "profession": "Student",
+    "url": "https://imgur.com/gallery/UECcE",
+    "date": "2016-08-02"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-66.9754566,44.9465334]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Yangon",
+    "country": "Myanmar",
+    "continent": "Asia",
+    "profession": "Writer",
+    "url": "https://imgur.com/gallery/8luHb",
+    "date": "2016-07-26"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [96.19513200000002,16.8660694]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Washington, DC",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Construction",
+    "url": "https://imgur.com/gallery/kHaeg",
+    "date": "2016-07-13"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-77.0368707,38.9071923]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Katy, TX",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "",
+    "url": "https://imgur.com/gallery/bfcEX",
+    "date": "2016-07-13"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-95.8243956,29.7857853]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Eau Claire, WI",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Director",
+    "url": "https://imgur.com/gallery/qvO0Z",
+    "date": "2016-07-25"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-91.4984941,44.811349]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Charleston, SC",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Deckhand",
+    "url": "https://imgur.com/gallery/6Y4GM",
+    "date": "2016-11-16"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-79.93105120000001,32.7764749]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "London",
+    "country": "United Kingdom",
+    "continent": "Europe",
+    "profession": "Bid writer",
+    "url": "https://imgur.com/gallery/uPfgA",
+    "date": "2016-07-15"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-0.1277583,51.5073509]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Morelos",
+    "country": "Mexico",
+    "continent": "North America",
+    "profession": "Student",
+    "url": "https://imgur.com/gallery/HGtfr",
+    "date": "2016-07-18"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-99.1013498,18.6813049]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "San Fernando, CA",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Student",
+    "url": "https://imgur.com/gallery/xeqOX",
+    "date": "2016-07-13"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-118.4389719,34.2819461]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Toronto",
+    "country": "Canada",
+    "continent": "North America",
+    "profession": "Student",
+    "url": "https://imgur.com/gallery/nkIGQ",
+    "date": "2016-08-19"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-79.3831843,43.653226]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Cardiff, Wales",
+    "country": "United Kingdom",
+    "continent": "Europe",
+    "profession": "Student",
+    "url": "https://imgur.com/gallery/rcxr7",
+    "date": "2016-10-10"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-3.17909,51.48158100000001]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Amsterdam",
+    "country": "Netherlands",
+    "continent": "Europe",
+    "profession": "Student",
+    "url": "https://imgur.com/gallery/OY1BJ",
+    "date": "2016-07-18"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [4.895167900000001,52.3702157]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "New Westminster",
+    "country": "Canada",
+    "continent": "North America",
+    "profession": "Hospital manager",
+    "url": "https://imgur.com/gallery/v2IUT",
+    "date": "2017-01-27"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-122.910956,49.2057179]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Tempe, AZ",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Student",
+    "url": "https://imgur.com/gallery/W02c5",
+    "date": "2017-03-30"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-111.9400054,33.4255104]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Washington D.C.",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Neuroscientist",
+    "url": "https://imgur.com/gallery/LlXAZ",
+    "date": "2016-07-13"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-77.0368707,38.9071923]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Conifer, CO",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "",
+    "url": "https://imgur.com/gallery/A5YDP",
+    "date": "2016-07-12"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-105.3056996,39.5202516]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Rocklin, CA",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Salesperson",
+    "url": "https://imgur.com/gallery/DBtID",
+    "date": "2016-07-16"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-121.2357828,38.7907339]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "New West, BC",
+    "country": "Canada",
+    "continent": "North America",
+    "profession": "Guard",
+    "url": "https://imgur.com/gallery/gUdO4",
+    "date": "2016-07-12"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-122.910956,49.2057179]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Fayetteville, NC",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Student",
+    "url": "https://imgur.com/gallery/XmIBz",
+    "date": "2016-07-13"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-78.87835849999999,35.0526641]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Kingston",
+    "country": "Canada",
+    "continent": "North America",
+    "profession": "Student",
+    "url": "https://imgur.com/gallery/knuNk",
+    "date": "2016-07-12"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-73.9973608,41.9270367]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Ottawa, West end",
+    "country": "Canada",
+    "continent": "North America",
+    "profession": "Caretaker",
+    "url": "https://imgur.com/gallery/NE4uD",
+    "date": "2016-07-14"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-75.7853543,45.3682429]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Kampala",
+    "country": "Uganda",
+    "continent": "Africa",
+    "profession": "Moviemaker",
+    "url": "https://imgur.com/gallery/4YhFd",
+    "date": "2016-07-20"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [32.5825197,0.3475964]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Dickson, TN",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "",
+    "url": "https://imgur.com/gallery/1FadO",
+    "date": "2016-07-11"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-87.3877899,36.0770048]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Clignancourt, Paris",
+    "country": "France",
+    "continent": "Europe",
+    "profession": "Student",
+    "url": "https://imgur.com/gallery/5lhqa",
+    "date": "2017-02-23"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [2.344352,48.8889617]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Lippstadt",
+    "country": "Germany",
+    "continent": "Europe",
+    "profession": "Student",
+    "url": "https://imgur.com/gallery/mKNRL",
+    "date": "2016-07-14"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [8.3406481,51.6712278]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Buenos Aires",
+    "country": "Argentina",
+    "continent": "South America",
+    "profession": "",
+    "url": "https://imgur.com/gallery/TsZDn",
+    "date": "2016-07-14"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-58.3815591,-34.6036844]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Auckland",
+    "country": "New Zealand",
+    "continent": "Oceania",
+    "profession": "Art director",
+    "url": "https://imgur.com/gallery/Ceruw",
+    "date": "2016-11-10"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [174.7633315,-36.8484597]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Douglasville, GA",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Teacher",
+    "url": "https://imgur.com/gallery/pRKyA",
+    "date": "2016-08-05"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-84.7477136,33.7514966]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Sungai Besar",
+    "country": "Malaysia",
+    "continent": "Asia",
+    "profession": "",
+    "url": "https://imgur.com/gallery/ztFB0",
+    "date": "2017-03-31"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [100.9857899,3.675398]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Cape Town",
+    "country": "South Africa",
+    "continent": "Africa",
+    "profession": "Student",
+    "url": "https://imgur.com/gallery/LLwMn",
+    "date": "2016-07-12"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [18.4240553,-33.9248685]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "St. Ives",
+    "country": "United Kingdom",
+    "continent": "Europe",
+    "profession": "Game and website tester",
+    "url": "https://imgur.com/gallery/gcfhF",
+    "date": "2016-07-12"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-0.0941329,52.3340056]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Quezon City, Manila",
+    "country": "Philippines",
+    "continent": "Asia",
+    "profession": "Student",
+    "url": "https://imgur.com/gallery/GSy08",
+    "date": "2017-02-13"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [121.0437003,14.6760413]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Lisbon",
+    "country": "Portugal",
+    "continent": "Europe",
+    "profession": "Psychiatry intern",
+    "url": "https://imgur.com/gallery/i19HH",
+    "date": "2016-12-21"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-9.1393366,38.7222524]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Fairbanks, AK",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "Neuroscientist",
+    "url": "https://imgur.com/gallery/FXrRG",
+    "date": "2017-12-26"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-147.7163888,64.8377778]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Launceston",
+    "country": "United Kingdom",
+    "continent": "Europe",
+    "profession": "Nurse",
+    "url": "https://imgur.com/gallery/no4mn",
+    "date": "2016-07-14"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [147.1440875,-41.43322149999999]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Rehovot",
+    "country": "Isreal",
+    "continent": "Asia",
+    "profession": "Support engineer",
+    "url": "https://imgur.com/gallery/yGLBk",
+    "date": "2017-07-09"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [34.811272,31.892773]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Shanghai",
+    "country": "China",
+    "continent": "Asia",
+    "profession": "CS engineer",
+    "url": "https://imgur.com/gallery/dSNdA",
+    "date": "2016-11-28"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [121.4737021,31.2303904]
+  }
+},
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Bay City, MI",
+    "country": "USA",
+    "continent": "North America",
+    "profession": "AP invoicing and inter-entity reconciliator",
+    "url": "https://imgur.com/gallery/ZXUDQ",
+    "date": "2016-07-15"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-83.8888647,43.5944677]
+  }
+}
+
+
+
+
+]
+}

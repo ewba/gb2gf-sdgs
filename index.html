@@ -10,7 +10,7 @@
 	<meta property="og:title" content="Going back to a green future: Good practices contributing to SDGs" />
 	<meta property="og:description" content="Going back to a green future is a project about learning and showcasing good practices contributing to SDGs, hereby presented on a map." />
 <!-- TODO -->
-<!--	<meta property="og:url" content="https://lynxlynx.info/aditl/" /> -->
+	<meta property="og:url" content="https://ebm.si/p/gb2gf-sdgs/" /> 
 <!--	<meta property="og:image" content="https://lynxlynx.info/aditl/screenshot.jpg" />
 	<meta property="og:image:width" content="713" />
 	<meta property="og:image:height" content="375" /> -->
@@ -110,6 +110,14 @@ input {
 .popup-date {
 	font-size: 0.8em;
 	margin: 0.2em 0 1em 0;
+}
+.popup-desc {
+	font-size: 0.8em;
+	margin: 0.2em 0 1em 0;
+	display: -webkit-box;
+	-webkit-line-clamp: 6;
+	-webkit-box-orient: vertical; 
+	overflow: hidden;
 }
 .leaflet-popup-content-wrapper {
 	background-color: beige;
@@ -261,7 +269,7 @@ input:invalid {
 	</head>
 	<body>
 	<section id="introdiv">
-		<h1>Imgur: A day in the life (everywhere)</h1>
+		<h1>Going back to a green future</h1>
 		<nav>
 			<ul>
 				<li><a href="" id="cats">Categories</a></li>
@@ -283,8 +291,8 @@ input:invalid {
 var MAPBOX_KEY = "CHANGEME";
 var GEOCODER_KEY = "CHANGEME";
 
-var maxZoom = 11;
-var map = L.map('map1').setView([35.0, 15], 2);
+var maxZoom = 12;
+var map = L.map('map1').setView([45.0, 15], 4);
 L.tileLayer(/*'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}'*/'https://tile.openstreetmap.bzh/br/{z}/{x}/{y}.png', {
 	attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
 	maxZoom: maxZoom,
@@ -296,8 +304,10 @@ function generateDescription(feature, layer) {
 	feature.properties.popupContent = `
 	<span aria-label="Place name">${feature.properties.name} (${feature.properties.country})</span>
 	<div>
-		<div class="popup-date">${feature.properties.level}</div>
-		<a href="${feature.properties.url}" target="_blank" rel="noopener">Full photo-story</a>
+		<div class="popup-date">Level: ${feature.properties.level}</div>
+		<div class="popup-date">SDG goals: ${feature.properties.goals}</div>
+		<div class="popup-desc">${feature.properties.desc}</div>
+		<a href="${feature.properties.url}" target="_blank" rel="noopener">Learn more</a>
 	</div>`;
 }
 
@@ -335,7 +345,7 @@ fetch('stories.geojson')
 		geojsonLayer = L.geoJSON(geojsonFeatures, {
 			onEachFeature: (feature, layer) => { 
 				generateDescription(feature, layer);
-				layer.bindPopup(feature.properties.popupContent, { maxWidth: 250 });
+				layer.bindPopup(feature.properties.popupContent, { maxWidth: 650 });
 			},
 			pointToLayer: function(feature, latlng) {
 				return L.marker(latlng, { icon: imgurMarker });
@@ -355,7 +365,7 @@ fetch('stories.geojson')
 var greetingWin =  L.control.window(map, {
 	title: 'Welcome!', 
 	prompt: { buttonOK: 'Explore!', buttonCancel: '' },
-	content: 'Find good practice examples of moving towards the Sustainable development goals (SDGs) identified in the <em>Going back to a green future project</em>.',
+	content: 'Here you can find good practice examples of moving towards the Sustainable development goals (SDGs). This subset was identified in the <em>Going back to a green future</em> project.',
 	modal: true,
 	position: 'top',
 	closeButton: false,

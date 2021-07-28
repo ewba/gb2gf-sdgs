@@ -420,14 +420,10 @@ The author is solely responsible for this publication (communication) and the Co
 	registerClickHandler("about", aboutWin);
 }
 
-/* TODO 
-icons
-https://www.un.org/sustainabledevelopment/news/communications-material/
-*/
 // pre-construct search lists
 var lists = [[], [], []];
 function populateLists() {
-	for(var i=0; i<geojsonFeatures.length; i++) {
+	for (var i=0; i<geojsonFeatures.length; i++) {
 		var feature = geojsonFeatures[i];
 		var url = feature.properties.url;
 		var name = feature.properties.name;
@@ -438,18 +434,34 @@ function populateLists() {
 		var values = [goals, country, level];
 		var entry = { name: name, url: url };
 
-		for(var l=0; l<lists.length; l++) {
+		for (var l=0; l<lists.length; l++) {
 			list = lists[l];
 			val = values[l];
-// 			if (l == 2) { // special case dates — extract the year
-// 				val = val.split("-")[0];
-// 			}
-			var filtered = list.filter(v => v[0] == val);
-			var idx = list.indexOf(filtered[0]);
-			if (idx == -1) {
-				list.push([val, [entry]]);
-			} else {
-				list[idx][1].push(entry);
+ 			if (l == 0) { // special case goals — explode them, copying the entries
+				goalArray = goals.split(",");
+				for (var j=0; j < goalArray.length; j++) {
+					val = goalArray[j].trim();
+					sdgUrl = "https://sdgs.un.org/goals/goal" + val;
+					if (val.length == 1) val = "0" + val;
+					imgUrl = "sdg-icons/SDG_Icons_Inverted_Transparent_WEB-" + val + ".png";
+					// construct the html so the lexical sorting can emulate number sorting
+					val = "<a alt='goal" + val + "' href='" + sdgUrl + "' rel='noopener' target='_blank'><img src='" + imgUrl + "'></a>";
+					var filtered = list.filter(v => v[0] == val);
+					var idx = list.indexOf(filtered[0]);
+					if (idx == -1) {
+						list.push([val, [entry]]);
+					} else {
+						list[idx][1].push(entry);
+					}
+				}
+ 			} else {
+				var filtered = list.filter(v => v[0] == val);
+				var idx = list.indexOf(filtered[0]);
+				if (idx == -1) {
+					list.push([val, [entry]]);
+				} else {
+					list[idx][1].push(entry);
+				}
 			}
 		}
 	}

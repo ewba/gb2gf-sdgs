@@ -269,7 +269,7 @@ input:invalid {
 	</head>
 	<body>
 	<section id="introdiv">
-		<h1>Going back to a green future</h1>
+		<h1><a href="https://www.facebook.com/Going-Back-to-Green-Future-538200113764297" rel="noopener" target="_blank">Going back to a green future</a></h1>
 		<nav>
 			<ul>
 				<li><a href="" id="cats">Categories</a></li>
@@ -289,7 +289,6 @@ input:invalid {
 	<script>
 /* TODO */
 var MAPBOX_KEY = "CHANGEME";
-var GEOCODER_KEY = "CHANGEME";
 
 var maxZoom = 12;
 var map = L.map('map1').setView([45.0, 15], 4);
@@ -386,7 +385,34 @@ function addAboutModal() {
 	var aboutWin =  L.control.window(map, {
 		title: 'About', 
 		prompt: { buttonOK: 'Explore!', buttonCancel: '' },
-		content: `<p style="margin-top: 0;"><em>Going back to a green future</em> is a simple web map application to display the results of the namesake project (${geojsonFeatures.length} cases).</p>`,
+		content: `<p style="margin-top: 0;"><em>Going back to a green future</em> is a simple web map application to display the results of the namesake project (${geojsonFeatures.length} cases).<br><img alt="Erasmus+ logo" src="logo.png" style="margin:1em">
+		
+		
+		<h3>About the project</h3>
+<p>
+The project »Going back to green future (On toure)« addresses an issue which is in increasing demand and relevance among all European communities: climate change (CC) mitigation. In recent years, adult education institutions (AEI) in different ways aim to enable their learners to act sustainable. With a little more in-depth insight into the work of AEI staff, we discover how nearly all areas of their work are to some extent intertwined with CC mitigation or, in other words, reaching sustainable development (SD) goals. Desktop researches, AEI staff conferences' conclusions, a number of projects that deal with SD topics show that AEI themselves stay without proper guidelines as to how to set an example of SD organisation in order to really tackle CC challenge holistically and systematically. </p>
+
+<p>
+The project will by exchange of good practices among 7 partners from 6 countries explore the possibility of establishing »an across Europe guidelines« for SD self-evaluation system and incorporation of SD goals in AEI.</p>
+
+<p>
+The »Going back to green future« project will:
+<ul>
+<li>extend and develop adult education institutions staff's competences in the field of climate change mitigation in a broad sense;</li>
+<li>improve the capacity of adult learning institutions and organisations to incorporate sustainable development goals in their strategies, plans and, most importantly, in their everyday life and work;</li>
+<li>create opportunities for adult learners to become more environmentally responsible citizens in different European countries.</li>
+</ul>
+The results of the project will be useful for all organisations active in adult education across Europe and they have the potential to be transferred and exploited in other European and other countries of the world. Long-term project's purpose is to increase the involvement of CC mitigation in the formulation of AEI policies/plans and to our daily behaviour. 
+</p>
+<p>
+For these reasons – follow us on <a href="https://www.facebook.com/Going-Back-to-Green-Future-538200113764297" rel="noopener" target="_blank">Facebook</a> and <a href="https://back2greenfuture.blogspot.com" rel="noopener" target="_blank">our blog</a>!
+</p>
+		
+		
+		
+		<br><i style="font-size:0.7em">This programme has been funded with support from the European Commission.
+The author is solely responsible for this publication (communication) and the Commission accepts no responsibility for any use that may be made of the information contained therein.</i><br><img alt="Erasmus+ logo" src="https://ebm.si/p/zwcities-calc/eu_flag_co_funded_pos_rgb_left-200px.jpg" style="margin:1em">
+</p>`,
 		modal: true,
 		position: 'top',
 		closeButton: true,
@@ -449,7 +475,6 @@ function generateTables() {
 	}
 }
 
-/* TODO */
 function createListing() {
 	var listingWin =  L.control.window(map, {
 		title: 'Categories', 
